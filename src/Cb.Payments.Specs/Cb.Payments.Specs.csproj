@@ -48,6 +48,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GetAListOfOrdersWhenRequestingWithValidCredentialsSteps.cs" />
+    <Compile Include="OrderServiceSpecs\Get A List of Orders When Requesting with Valid Credentials.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Get A List of Orders When Requesting with Valid Credentials.feature</DependentUpon>
+    </Compile>
     <Compile Include="OrderServiceSpecs\Get an Error When Retrieving Orders With Invalid Credentials.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -58,6 +64,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="OrderServiceSpecs\Get A List of Orders When Requesting with Valid Credentials.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>Get A List of Orders When Requesting with Valid Credentials.feature.cs</LastGenOutput>
+    </None>
     <None Include="OrderServiceSpecs\Get an Error When Retrieving Orders With Invalid Credentials.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>Get an Error When Retrieving Orders With Invalid Credentials.feature.cs</LastGenOutput>

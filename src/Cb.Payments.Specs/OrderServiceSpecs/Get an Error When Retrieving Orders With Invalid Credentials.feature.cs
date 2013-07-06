@@ -96,10 +96,10 @@ this.ScenarioSetup(scenarioInfo);
         
         [Xunit.FactAttribute()]
         [Xunit.TraitAttribute("FeatureTitle", "Get an Error When Retrieving Orders With Invalid Credentials")]
-        [Xunit.TraitAttribute("Description", "Invalid credentials provide")]
-        public virtual void InvalidCredentialsProvide()
+        [Xunit.TraitAttribute("Description", "Invalid credentials provided")]
+        public virtual void InvalidCredentialsProvided()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Invalid credentials provide", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Invalid credentials provided", ((string[])(null)));
 #line 13
 this.ScenarioSetup(scenarioInfo);
 #line 14
