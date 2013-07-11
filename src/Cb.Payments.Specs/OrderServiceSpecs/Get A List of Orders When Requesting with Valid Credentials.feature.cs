@@ -68,258 +68,7 @@ namespace Cb.Payments.Specs.OrderServiceSpecs
         {
 #line 6
 #line 7
- testRunner.Given("I have valid credentials", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line hidden
-            TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
-                        "date",
-                        "receipt",
-                        "promo",
-                        "pmtType",
-                        "txnType",
-                        "item",
-                        "amount",
-                        "site",
-                        "affi",
-                        "country",
-                        "state",
-                        "lastName",
-                        "firstName",
-                        "currency",
-                        "email",
-                        "zip",
-                        "customerContactInfo",
-                        "refundsBlocked",
-                        "blockRefundReason",
-                        "rebillAmount",
-                        "processedPayments",
-                        "futurePayments",
-                        "nextPaymentDate",
-                        "status",
-                        "accountAmount",
-                        "role",
-                        "customerDisplayName",
-                        "title",
-                        "recurring",
-                        "physical"});
-            table1.AddRow(new string[] {
-                        "2012-09-26T18:02:34-07:00",
-                        "BZH3EJ28",
-                        "",
-                        "MSTR",
-                        "SALE",
-                        "400",
-                        "49.73",
-                        "FITCOOKING",
-                        "BENGEARY",
-                        "PH",
-                        "",
-                        "",
-                        "",
-                        "PHP",
-                        "",
-                        "1605",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "0.01",
-                        "AFFILIATE",
-                        "",
-                        "Metabolic Cooking Fat Loss Cookbooks Package",
-                        "false",
-                        "false"});
-            table1.AddRow(new string[] {
-                        "2012-10-16T11:41:17-07:00",
-                        "9L2LWNE3",
-                        "",
-                        "VISA",
-                        "SALE",
-                        "6",
-                        "37.00",
-                        "NUMDIET",
-                        "OUTRAGEOUS",
-                        "US",
-                        "FL",
-                        "EXAMPLE",
-                        "CHRISTINE",
-                        "USD",
-                        "test@example.com",
-                        "33146",
-                        "",
-                        "",
-                        "",
-                        "37.00",
-                        "2",
-                        "0",
-                        "2012-12-16T11:41:17-08:00",
-                        "COMPLETED",
-                        "8.30",
-                        "VENDOR",
-                        "Christine Example",
-                        "Numerology Yoga: Web-Only Discount Special!",
-                        "true",
-                        "false"});
-            table1.AddRow(new string[] {
-                        "2012-11-19T10:23:45-08:00",
-                        "PLWFEJZQ",
-                        "",
-                        "VISA",
-                        "SALE",
-                        "46",
-                        "51.05",
-                        "EODDIET",
-                        "GODFREE120",
-                        "US",
-                        "FL",
-                        "EXAMPLE",
-                        "CHRISTINE",
-                        "USD",
-                        "test@example.com",
-                        "11741",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "10.54",
-                        "VENDOR",
-                        "Christine Example",
-                        "The Every Other Day Diet 2.0: PDF Format (the SNAPP! System)",
-                        "false",
-                        "false"});
-            table1.AddRow(new string[] {
-                        "2012-11-24T09:46:46-08:00",
-                        "GVP8EJPW",
-                        "",
-                        "VISA",
-                        "SALE",
-                        "51",
-                        "1.00",
-                        "EODDIET",
-                        "JKFJKF",
-                        "US",
-                        "CA",
-                        "EXAMPLE",
-                        "RICK",
-                        "USD",
-                        "rick@example.com",
-                        "95624",
-                        "",
-                        "",
-                        "",
-                        "46.00",
-                        "1",
-                        "1",
-                        "2012-12-15T09:46:54-08:00",
-                        "CANCELED",
-                        "0.00",
-                        "VENDOR",
-                        "Rick Example",
-                        "The EODD Trial Package With Radical Fat Loss Blueprint",
-                        "true",
-                        "false"});
-            table1.AddRow(new string[] {
-                        "2012-11-25T15:52:38-08:00",
-                        "H74LFE5N",
-                        "",
-                        "PYPL",
-                        "SALE",
-                        "46",
-                        "47.00",
-                        "EODDIET",
-                        "2010SOLU",
-                        "US",
-                        "WA",
-                        "EXAMPLE",
-                        "PETER",
-                        "USD",
-                        "peter@example.com",
-                        "98155",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "10.62",
-                        "VENDOR",
-                        "Peter Example",
-                        "The Every Other Day Diet 2.0: PDF Format (the SNAPP! System)",
-                        "false",
-                        "false"});
-            table1.AddRow(new string[] {
-                        "2013-01-07T14:23:13-08:00",
-                        "7698KM8E",
-                        "",
-                        "PYPL",
-                        "RFND",
-                        "1",
-                        "-34.26",
-                        "NUMDIET",
-                        "TTYLERAFF",
-                        "GB",
-                        "",
-                        "",
-                        "",
-                        "GBP",
-                        "",
-                        "BS110HZ",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "-11.84",
-                        "AFFILIATE",
-                        "",
-                        "The Numerology Diet - the Art and Science of Spiritual Eating",
-                        "false",
-                        "false"});
-            table1.AddRow(new string[] {
-                        "2013-01-08T14:23:13-08:00",
-                        "7698KM8E",
-                        "",
-                        "PYPL",
-                        "SALE",
-                        "eodd",
-                        "34.26",
-                        "NUMDIET",
-                        "TTYLERAFF",
-                        "GB",
-                        "",
-                        "",
-                        "",
-                        "GBP",
-                        "",
-                        "BS110HZ",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "-11.84",
-                        "AFFILIATE",
-                        "",
-                        "The Numerology Diet - the Art and Science of Spiritual Eating",
-                        "false",
-                        "false"});
-#line 8
- testRunner.And("the following order details", ((string)(null)), table1, "And ");
+ testRunner.Given("I have a valid developer key \'VALIDDEVKEY\' and a valid clerk Key \'VALIDCLERKKEY\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
         }
         
@@ -334,268 +83,282 @@ namespace Cb.Payments.Specs.OrderServiceSpecs
         
         [Xunit.FactAttribute()]
         [Xunit.TraitAttribute("FeatureTitle", "Get A List of Orders When Requesting with Valid Credentials")]
-        [Xunit.TraitAttribute("Description", "Get a default list of orders")]
-        public virtual void GetADefaultListOfOrders()
+        [Xunit.TraitAttribute("Description", "Get a list of orders with continuation")]
+        public virtual void GetAListOfOrdersWithContinuation()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Get a default list of orders", new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Get a list of orders with continuation", new string[] {
+                        "mytag"});
+#line 11
+this.ScenarioSetup(scenarioInfo);
+#line 6
+this.FeatureBackground();
+#line 12
+ testRunner.And("the following API return value \'{\"orderData\": [{\"date\":\"2012-09-26T18:02:34-07:00" +
+                    "\",\"receipt\":\"BZH3EJ28\",\"promo\":{\"@nil\":\"true\"},\"pmtType\":\"MSTR\",\"txnType\":\"SALE\"" +
+                    ",\"item\":\"400\",\"amount\":\"49.73\",\"site\":\"FITCOOKING\",\"affi\":\"BENGEARY\",\"country\":\"" +
+                    "PH\",\"state\":{\"@nil\":\"true\"},\"lastName\":{\"@nil\":\"true\"},\"firstName\":{\"@nil\":\"true" +
+                    "\"},\"currency\":\"PHP\",\"email\":{\"@nil\":\"true\"},\"zip\":\"1605\",\"rebillAmount\":{\"@nil\":" +
+                    "\"true\"},\"processedPayments\":{\"@nil\":\"true\"},\"futurePayments\":{\"@nil\":\"true\"},\"ne" +
+                    "xtPaymentDate\":{\"@nil\":\"true\"},\"status\":{\"@nil\":\"true\"},\"accountAmount\":\"0.01\",\"" +
+                    "role\":\"JV_TRADITIONAL\",\"customerDisplayName\":{\"@nil\":\"true\"},\"title\":\"Metabolic " +
+                    "Cooking Fat Loss Cookbooks Package\",\"recurring\":\"false\",\"physical\":\"false\"},{\"da" +
+                    "te\":\"2012-10-16T11:41:17-07:00\",\"receipt\":\"9L2LWNE3\",\"promo\":{\"@nil\":\"true\"},\"pm" +
+                    "tType\":\"VISA\",\"txnType\":\"SALE\",\"item\":\"6\",\"amount\":\"37.00\",\"site\":\"NUMDIET\",\"aff" +
+                    "i\":\"OUTRAGEOUS\",\"country\":\"US\",\"state\":\"FL\",\"lastName\":\"EXAMPLE\",\"firstName\":\"CH" +
+                    "RISTINE\",\"currency\":\"USD\",\"email\":\"test@example.com\",\"zip\":\"33146\",\"rebillAmount" +
+                    "\":\"37.00\",\"processedPayments\":\"2\",\"futurePayments\":\"0\",\"nextPaymentDate\":\"2012-1" +
+                    "2-16T11:41:17-08:00\",\"status\":\"COMPLETED\",\"accountAmount\":\"8.30\",\"role\":\"VENDOR\"" +
+                    ",\"customerDisplayName\":\"Christine Example\",\"title\":\"Numerology Yoga: Web-Only Di" +
+                    "scount Special!!\",\"recurring\":\"true\",\"physical\":\"false\"},{\"date\":\"2012-11-19T10:" +
+                    "23:45-08:00\",\"receipt\":\"PLWFEJZQ\",\"promo\":{\"@nil\":\"true\"},\"pmtType\":\"VISA\",\"txnT" +
+                    "ype\":\"SALE\",\"item\":\"46\",\"amount\":\"51.05\",\"site\":\"EODDIET\",\"affi\":\"GODFREE120\",\"c" +
+                    "ountry\":\"US\",\"state\":\"FL\",\"lastName\":\"EXAMPLE\",\"firstName\":\"CHRISTINE\",\"currency" +
+                    "\":\"USD\",\"email\":\"test@example.com\",\"zip\":\"11741\",\"rebillAmount\":{\"@nil\":\"true\"}," +
+                    "\"processedPayments\":{\"@nil\":\"true\"},\"futurePayments\":{\"@nil\":\"true\"},\"nextPaymen" +
+                    "tDate\":{\"@nil\":\"true\"},\"status\":{\"@nil\":\"true\"},\"accountAmount\":\"10.54\",\"role\":\"" +
+                    "VENDOR\",\"customerDisplayName\":\"Christine Example\",\"title\":\"The Every Other Day D" +
+                    "iet 2.0: PDF Format (the SNAPP! System)\",\"recurring\":\"false\",\"physical\":\"false\"}" +
+                    ",{\"date\":\"2012-11-24T09:46:46-08:00\",\"receipt\":\"GVP8EJPW\",\"promo\":{\"@nil\":\"true\"" +
+                    "},\"pmtType\":\"VISA\",\"txnType\":\"SALE\",\"item\":\"51\",\"amount\":\"1.00\",\"site\":\"EODDIET\"" +
+                    ",\"affi\":\"JKFJKF\",\"country\":\"US\",\"state\":\"CA\",\"lastName\":\"EXAMPLE\",\"firstName\":\"R" +
+                    "ICK\",\"currency\":\"USD\",\"email\":\"rick@example.com\",\"zip\":\"95624\",\"rebillAmount\":\"4" +
+                    "6.00\",\"processedPayments\":\"1\",\"futurePayments\":\"1\",\"nextPaymentDate\":\"2012-12-15" +
+                    "T09:46:54-08:00\",\"status\":\"CANCELED\",\"accountAmount\":\"0.00\",\"role\":\"VENDOR\",\"cus" +
+                    "tomerDisplayName\":\"Rick Example\",\"title\":\"The EODD Trial Package With Radical Fa" +
+                    "t Loss Blueprint,\"recurring\":\"true\",\"physical\":\"false\"},{\"date\":\"2012-11-25T15:5" +
+                    "2:38-08:00\",\"receipt\":\"H74LFE5N\",\"promo\":{\"@nil\":\"true\"},\"pmtType\":\"PYPL\",\"txnTy" +
+                    "pe\":\"SALE\",\"item\":\"46\",\"amount\":\"47.00\",\"site\":\"EODDIET\",\"affi\":\"2010SOLU\",\"coun" +
+                    "try\":\"US\",\"state\":\"WA\",\"lastName\":\"EXAMPLE\",\"firstName\":\"PETER\",\"currency\":\"USD\"" +
+                    ",\"email\":\"peter@example.com\",\"zip\":\"98155\",\"rebillAmount\":{\"@nil\":\"true\"},\"proce" +
+                    "ssedPayments\":{\"@nil\":\"true\"},\"futurePayments\":{\"@nil\":\"true\"},\"nextPaymentDate\"" +
+                    ":{\"@nil\":\"true\"},\"status\":{\"@nil\":\"true\"},\"accountAmount\":\"10.62\",\"role\":\"VENDOR" +
+                    "\",\"customerDisplayName\":\"Peter Example\",\"title\":\"The Every Other Day Diet 2.0: P" +
+                    "DF Format (the SNAPP! System)\",\"recurring\":\"false\",\"physical\":\"false\"},{\"date\":\"" +
+                    "2013-01-07T14:23:13-08:00\",\"receipt\":\"7698KM8E\",\"promo\":{\"@nil\":\"true\"},\"pmtType" +
+                    "\":\"PYPL\",\"txnType\":\"RFND\",\"item\":\"1\",\"amount\":\"-34.26\",\"site\":\"NUMDIET\",\"affi\":\"" +
+                    "TTYLERAFF\",\"country\":\"GB\",\"state\":{\"@nil\":\"true\"},\"lastName\":{\"@nil\":\"true\"},\"fi" +
+                    "rstName\":{\"@nil\":\"true\"},\"currency\":\"GBP\",\"email\":{\"@nil\":\"true\"},\"zip\":\"BS110HZ" +
+                    "\",\"rebillAmount\":{\"@nil\":\"true\"},\"processedPayments\":{\"@nil\":\"true\"},\"futurePaym" +
+                    "ents\":{\"@nil\":\"true\"},\"nextPaymentDate\":{\"@nil\":\"true\"},\"status\":{\"@nil\":\"true\"}" +
+                    ",\"accountAmount\":\"-11.84\",\"role\":\"AFFILIATE\",\"customerDisplayName\":{\"@nil\":\"true" +
+                    "\"},\"title\":\"The Numerology Diet - the Art and Science of Spiritual Eating\",\"recu" +
+                    "rring\":\"false\",\"physical\":\"false\"},{\"date\":\"2013-01-08T14:23:13-08:00\",\"receipt\"" +
+                    ":\"J2Q2EKTH\",\"promo\":{\"@nil\":\"true\"},\"pmtType\":\"PYPL\",\"txnType\":\"SALE\",\"item\":\"eo" +
+                    "dd\",\"amount\":\"34.26\",\"site\":\"NUMDIET\",\"affi\":\"TTYLERAFF\",\"country\":\"GB\",\"state\":" +
+                    "{\"@nil\":\"true\"},\"lastName\":{\"@nil\":\"true\"},\"firstName\":{\"@nil\":\"true\"},\"currency" +
+                    "\":\"GBP\",\"email\":{\"@nil\":\"true\"},\"zip\":\"BS110HZ\",\"rebillAmount\":{\"@nil\":\"true\"},\"" +
+                    "processedPayments\":{\"@nil\":\"true\"},\"futurePayments\":{\"@nil\":\"true\"},\"nextPayment" +
+                    "Date\":{\"@nil\":\"true\"},\"status\":{\"@nil\":\"true\"},\"accountAmount\":\"11.84\",\"role\":\"A" +
+                    "FFILIATE\",\"customerDisplayName\":{\"@nil\":\"true\"},\"title\":\"The Numerology Diet - t" +
+                    "he Art and Science of Spiritual Eating\",\"recurring\":\"false\",\"physical\":\"false\"}]" +
+                    "}\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 13
+ testRunner.And("an API HttpStatusCode of PartialContent", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 14
+ testRunner.When("I request a list with no paramaters", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 15
+ testRunner.Then("I should receive the following order info \'{\"orderData\": [{\"date\":\"2012-09-26T18:" +
+                    "02:34-07:00\",\"receipt\":\"BZH3EJ28\",\"promo\":{\"@nil\":\"true\"},\"pmtType\":\"MSTR\",\"txnT" +
+                    "ype\":\"SALE\",\"item\":\"400\",\"amount\":\"49.73\",\"site\":\"FITCOOKING\",\"affi\":\"BENGEARY\"," +
+                    "\"country\":\"PH\",\"state\":{\"@nil\":\"true\"},\"lastName\":{\"@nil\":\"true\"},\"firstName\":{\"" +
+                    "@nil\":\"true\"},\"currency\":\"PHP\",\"email\":{\"@nil\":\"true\"},\"zip\":\"1605\",\"rebillAmoun" +
+                    "t\":{\"@nil\":\"true\"},\"processedPayments\":{\"@nil\":\"true\"},\"futurePayments\":{\"@nil\":" +
+                    "\"true\"},\"nextPaymentDate\":{\"@nil\":\"true\"},\"status\":{\"@nil\":\"true\"},\"accountAmoun" +
+                    "t\":\"0.01\",\"role\":\"JV_TRADITIONAL\",\"customerDisplayName\":{\"@nil\":\"true\"},\"title\":" +
+                    "\"Metabolic Cooking Fat Loss Cookbooks Package\",\"recurring\":\"false\",\"physical\":\"f" +
+                    "alse\"},{\"date\":\"2012-10-16T11:41:17-07:00\",\"receipt\":\"9L2LWNE3\",\"promo\":{\"@nil\":" +
+                    "\"true\"},\"pmtType\":\"VISA\",\"txnType\":\"SALE\",\"item\":\"6\",\"amount\":\"37.00\",\"site\":\"NU" +
+                    "MDIET\",\"affi\":\"OUTRAGEOUS\",\"country\":\"US\",\"state\":\"FL\",\"lastName\":\"EXAMPLE\",\"fir" +
+                    "stName\":\"CHRISTINE\",\"currency\":\"USD\",\"email\":\"test@example.com\",\"zip\":\"33146\",\"r" +
+                    "ebillAmount\":\"37.00\",\"processedPayments\":\"2\",\"futurePayments\":\"0\",\"nextPaymentDa" +
+                    "te\":\"2012-12-16T11:41:17-08:00\",\"status\":\"COMPLETED\",\"accountAmount\":\"8.30\",\"rol" +
+                    "e\":\"VENDOR\",\"customerDisplayName\":\"Christine Example\",\"title\":\"Numerology Yoga: " +
+                    "Web-Only Discount Special!!\",\"recurring\":\"true\",\"physical\":\"false\"},{\"date\":\"201" +
+                    "2-11-19T10:23:45-08:00\",\"receipt\":\"PLWFEJZQ\",\"promo\":{\"@nil\":\"true\"},\"pmtType\":\"" +
+                    "VISA\",\"txnType\":\"SALE\",\"item\":\"46\",\"amount\":\"51.05\",\"site\":\"EODDIET\",\"affi\":\"GOD" +
+                    "FREE120\",\"country\":\"US\",\"state\":\"FL\",\"lastName\":\"EXAMPLE\",\"firstName\":\"CHRISTINE" +
+                    "\",\"currency\":\"USD\",\"email\":\"test@example.com\",\"zip\":\"11741\",\"rebillAmount\":{\"@ni" +
+                    "l\":\"true\"},\"processedPayments\":{\"@nil\":\"true\"},\"futurePayments\":{\"@nil\":\"true\"}," +
+                    "\"nextPaymentDate\":{\"@nil\":\"true\"},\"status\":{\"@nil\":\"true\"},\"accountAmount\":\"10.5" +
+                    "4\",\"role\":\"VENDOR\",\"customerDisplayName\":\"Christine Example\",\"title\":\"The Every " +
+                    "Other Day Diet 2.0: PDF Format (the SNAPP! System)\",\"recurring\":\"false\",\"physica" +
+                    "l\":\"false\"},{\"date\":\"2012-11-24T09:46:46-08:00\",\"receipt\":\"GVP8EJPW\",\"promo\":{\"@" +
+                    "nil\":\"true\"},\"pmtType\":\"VISA\",\"txnType\":\"SALE\",\"item\":\"51\",\"amount\":\"1.00\",\"site" +
+                    "\":\"EODDIET\",\"affi\":\"JKFJKF\",\"country\":\"US\",\"state\":\"CA\",\"lastName\":\"EXAMPLE\",\"fi" +
+                    "rstName\":\"RICK\",\"currency\":\"USD\",\"email\":\"rick@example.com\",\"zip\":\"95624\",\"rebil" +
+                    "lAmount\":\"46.00\",\"processedPayments\":\"1\",\"futurePayments\":\"1\",\"nextPaymentDate\":" +
+                    "\"2012-12-15T09:46:54-08:00\",\"status\":\"CANCELED\",\"accountAmount\":\"0.00\",\"role\":\"V" +
+                    "ENDOR\",\"customerDisplayName\":\"Rick Example\",\"title\":\"The EODD Trial Package With" +
+                    " Radical Fat Loss Blueprint,\"recurring\":\"true\",\"physical\":\"false\"},{\"date\":\"2012" +
+                    "-11-25T15:52:38-08:00\",\"receipt\":\"H74LFE5N\",\"promo\":{\"@nil\":\"true\"},\"pmtType\":\"P" +
+                    "YPL\",\"txnType\":\"SALE\",\"item\":\"46\",\"amount\":\"47.00\",\"site\":\"EODDIET\",\"affi\":\"2010" +
+                    "SOLU\",\"country\":\"US\",\"state\":\"WA\",\"lastName\":\"EXAMPLE\",\"firstName\":\"PETER\",\"curr" +
+                    "ency\":\"USD\",\"email\":\"peter@example.com\",\"zip\":\"98155\",\"rebillAmount\":{\"@nil\":\"tr" +
+                    "ue\"},\"processedPayments\":{\"@nil\":\"true\"},\"futurePayments\":{\"@nil\":\"true\"},\"nextP" +
+                    "aymentDate\":{\"@nil\":\"true\"},\"status\":{\"@nil\":\"true\"},\"accountAmount\":\"10.62\",\"ro" +
+                    "le\":\"VENDOR\",\"customerDisplayName\":\"Peter Example\",\"title\":\"The Every Other Day " +
+                    "Diet 2.0: PDF Format (the SNAPP! System)\",\"recurring\":\"false\",\"physical\":\"false\"" +
+                    "},{\"date\":\"2013-01-07T14:23:13-08:00\",\"receipt\":\"7698KM8E\",\"promo\":{\"@nil\":\"true" +
+                    "\"},\"pmtType\":\"PYPL\",\"txnType\":\"RFND\",\"item\":\"1\",\"amount\":\"-34.26\",\"site\":\"NUMDIE" +
+                    "T\",\"affi\":\"TTYLERAFF\",\"country\":\"GB\",\"state\":{\"@nil\":\"true\"},\"lastName\":{\"@nil\":" +
+                    "\"true\"},\"firstName\":{\"@nil\":\"true\"},\"currency\":\"GBP\",\"email\":{\"@nil\":\"true\"},\"zi" +
+                    "p\":\"BS110HZ\",\"rebillAmount\":{\"@nil\":\"true\"},\"processedPayments\":{\"@nil\":\"true\"}," +
+                    "\"futurePayments\":{\"@nil\":\"true\"},\"nextPaymentDate\":{\"@nil\":\"true\"},\"status\":{\"@n" +
+                    "il\":\"true\"},\"accountAmount\":\"-11.84\",\"role\":\"AFFILIATE\",\"customerDisplayName\":{\"" +
+                    "@nil\":\"true\"},\"title\":\"The Numerology Diet - the Art and Science of Spiritual Ea" +
+                    "ting\",\"recurring\":\"false\",\"physical\":\"false\"},{\"date\":\"2013-01-08T14:23:13-08:00" +
+                    "\",\"receipt\":\"J2Q2EKTH\",\"promo\":{\"@nil\":\"true\"},\"pmtType\":\"PYPL\",\"txnType\":\"SALE\"" +
+                    ",\"item\":\"eodd\",\"amount\":\"34.26\",\"site\":\"NUMDIET\",\"affi\":\"TTYLERAFF\",\"country\":\"G" +
+                    "B\",\"state\":{\"@nil\":\"true\"},\"lastName\":{\"@nil\":\"true\"},\"firstName\":{\"@nil\":\"true\"" +
+                    "},\"currency\":\"GBP\",\"email\":{\"@nil\":\"true\"},\"zip\":\"BS110HZ\",\"rebillAmount\":{\"@nil" +
+                    "\":\"true\"},\"processedPayments\":{\"@nil\":\"true\"},\"futurePayments\":{\"@nil\":\"true\"},\"" +
+                    "nextPaymentDate\":{\"@nil\":\"true\"},\"status\":{\"@nil\":\"true\"},\"accountAmount\":\"11.84" +
+                    "\",\"role\":\"AFFILIATE\",\"customerDisplayName\":{\"@nil\":\"true\"},\"title\":\"The Numerolo" +
+                    "gy Diet - the Art and Science of Spiritual Eating\",\"recurring\":\"false\",\"physical" +
+                    "\":\"false\"}]}\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 16
+ testRunner.And("an HttpStatusCode of PartialContent", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [Xunit.FactAttribute()]
+        [Xunit.TraitAttribute("FeatureTitle", "Get A List of Orders When Requesting with Valid Credentials")]
+        [Xunit.TraitAttribute("Description", "Get a list of orders with no continuation")]
+        public virtual void GetAListOfOrdersWithNoContinuation()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Get a list of orders with no continuation", new string[] {
                         "mytag"});
 #line 19
 this.ScenarioSetup(scenarioInfo);
 #line 6
 this.FeatureBackground();
 #line 20
- testRunner.When("I request a list with no paramaters", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line hidden
-            TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
-                        "date",
-                        "receipt",
-                        "promo",
-                        "pmtType",
-                        "txnType",
-                        "item",
-                        "amount",
-                        "site",
-                        "affi",
-                        "country",
-                        "state",
-                        "lastName",
-                        "firstName",
-                        "currency",
-                        "email",
-                        "zip",
-                        "customerContactInfo",
-                        "refundsBlocked",
-                        "blockRefundReason",
-                        "rebillAmount",
-                        "processedPayments",
-                        "futurePayments",
-                        "nextPaymentDate",
-                        "status",
-                        "accountAmount",
-                        "role",
-                        "customerDisplayName",
-                        "title",
-                        "recurring",
-                        "physical"});
-            table2.AddRow(new string[] {
-                        "2012-09-26T18:02:34-07:00",
-                        "BZH3EJ28",
-                        "",
-                        "MSTR",
-                        "SALE",
-                        "400",
-                        "49.73",
-                        "FITCOOKING",
-                        "BENGEARY",
-                        "PH",
-                        "",
-                        "",
-                        "",
-                        "PHP",
-                        "",
-                        "1605",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "0.01",
-                        "AFFILIATE",
-                        "",
-                        "Metabolic Cooking Fat Loss Cookbooks Package",
-                        "false",
-                        "false"});
-            table2.AddRow(new string[] {
-                        "2012-10-16T11:41:17-07:00",
-                        "9L2LWNE3",
-                        "",
-                        "VISA",
-                        "SALE",
-                        "6",
-                        "37.00",
-                        "NUMDIET",
-                        "OUTRAGEOUS",
-                        "US",
-                        "FL",
-                        "EXAMPLE",
-                        "CHRISTINE",
-                        "USD",
-                        "test@example.com",
-                        "33146",
-                        "",
-                        "",
-                        "",
-                        "37.00",
-                        "2",
-                        "0",
-                        "2012-12-16T11:41:17-08:00",
-                        "COMPLETED",
-                        "8.30",
-                        "VENDOR",
-                        "Christine Example",
-                        "Numerology Yoga: Web-Only Discount Special!",
-                        "true",
-                        "false"});
-            table2.AddRow(new string[] {
-                        "2012-11-19T10:23:45-08:00",
-                        "PLWFEJZQ",
-                        "",
-                        "VISA",
-                        "SALE",
-                        "46",
-                        "51.05",
-                        "EODDIET",
-                        "GODFREE120",
-                        "US",
-                        "FL",
-                        "EXAMPLE",
-                        "CHRISTINE",
-                        "USD",
-                        "test@example.com",
-                        "11741",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "10.54",
-                        "VENDOR",
-                        "Christine Example",
-                        "The Every Other Day Diet 2.0: PDF Format (the SNAPP! System)",
-                        "false",
-                        "false"});
-            table2.AddRow(new string[] {
-                        "2012-11-24T09:46:46-08:00",
-                        "GVP8EJPW",
-                        "",
-                        "VISA",
-                        "SALE",
-                        "51",
-                        "1.00",
-                        "EODDIET",
-                        "JKFJKF",
-                        "US",
-                        "CA",
-                        "EXAMPLE",
-                        "RICK",
-                        "USD",
-                        "rick@example.com",
-                        "95624",
-                        "",
-                        "",
-                        "",
-                        "46.00",
-                        "1",
-                        "1",
-                        "2012-12-15T09:46:54-08:00",
-                        "CANCELED",
-                        "0.00",
-                        "VENDOR",
-                        "Rick Example",
-                        "The EODD Trial Package With Radical Fat Loss Blueprint",
-                        "true",
-                        "false"});
-            table2.AddRow(new string[] {
-                        "2012-11-25T15:52:38-08:00",
-                        "H74LFE5N",
-                        "",
-                        "PYPL",
-                        "SALE",
-                        "46",
-                        "47.00",
-                        "EODDIET",
-                        "2010SOLU",
-                        "US",
-                        "WA",
-                        "EXAMPLE",
-                        "PETER",
-                        "USD",
-                        "peter@example.com",
-                        "98155",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "10.62",
-                        "VENDOR",
-                        "Peter Example",
-                        "The Every Other Day Diet 2.0: PDF Format (the SNAPP! System)",
-                        "false",
-                        "false"});
-            table2.AddRow(new string[] {
-                        "2013-01-07T14:23:13-08:00",
-                        "7698KM8E",
-                        "",
-                        "PYPL",
-                        "RFND",
-                        "1",
-                        "-34.26",
-                        "NUMDIET",
-                        "TTYLERAFF",
-                        "GB",
-                        "",
-                        "",
-                        "",
-                        "GBP",
-                        "",
-                        "BS110HZ",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "-11.84",
-                        "AFFILIATE",
-                        "",
-                        "The Numerology Diet - the Art and Science of Spiritual Eating",
-                        "false",
-                        "false"});
-            table2.AddRow(new string[] {
-                        "2013-01-08T14:23:13-08:00",
-                        "7698KM8E",
-                        "",
-                        "PYPL",
-                        "SALE",
-                        "eodd",
-                        "34.26",
-                        "NUMDIET",
-                        "TTYLERAFF",
-                        "GB",
-                        "",
-                        "",
-                        "",
-                        "GBP",
-                        "",
-                        "BS110HZ",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "-11.84",
-                        "AFFILIATE",
-                        "",
-                        "The Numerology Diet - the Art and Science of Spiritual Eating",
-                        "false",
-                        "false"});
+ testRunner.And("the following API return value \'{\"orderData\": [{\"date\":\"2012-09-26T18:02:34-07:00" +
+                    "\",\"receipt\":\"BZH3EJ28\",\"promo\":{\"@nil\":\"true\"},\"pmtType\":\"MSTR\",\"txnType\":\"SALE\"" +
+                    ",\"item\":\"400\",\"amount\":\"49.73\",\"site\":\"FITCOOKING\",\"affi\":\"BENGEARY\",\"country\":\"" +
+                    "PH\",\"state\":{\"@nil\":\"true\"},\"lastName\":{\"@nil\":\"true\"},\"firstName\":{\"@nil\":\"true" +
+                    "\"},\"currency\":\"PHP\",\"email\":{\"@nil\":\"true\"},\"zip\":\"1605\",\"rebillAmount\":{\"@nil\":" +
+                    "\"true\"},\"processedPayments\":{\"@nil\":\"true\"},\"futurePayments\":{\"@nil\":\"true\"},\"ne" +
+                    "xtPaymentDate\":{\"@nil\":\"true\"},\"status\":{\"@nil\":\"true\"},\"accountAmount\":\"0.01\",\"" +
+                    "role\":\"JV_TRADITIONAL\",\"customerDisplayName\":{\"@nil\":\"true\"},\"title\":\"Metabolic " +
+                    "Cooking Fat Loss Cookbooks Package\",\"recurring\":\"false\",\"physical\":\"false\"},{\"da" +
+                    "te\":\"2012-10-16T11:41:17-07:00\",\"receipt\":\"9L2LWNE3\",\"promo\":{\"@nil\":\"true\"},\"pm" +
+                    "tType\":\"VISA\",\"txnType\":\"SALE\",\"item\":\"6\",\"amount\":\"37.00\",\"site\":\"NUMDIET\",\"aff" +
+                    "i\":\"OUTRAGEOUS\",\"country\":\"US\",\"state\":\"FL\",\"lastName\":\"EXAMPLE\",\"firstName\":\"CH" +
+                    "RISTINE\",\"currency\":\"USD\",\"email\":\"test@example.com\",\"zip\":\"33146\",\"rebillAmount" +
+                    "\":\"37.00\",\"processedPayments\":\"2\",\"futurePayments\":\"0\",\"nextPaymentDate\":\"2012-1" +
+                    "2-16T11:41:17-08:00\",\"status\":\"COMPLETED\",\"accountAmount\":\"8.30\",\"role\":\"VENDOR\"" +
+                    ",\"customerDisplayName\":\"Christine Example\",\"title\":\"Numerology Yoga: Web-Only Di" +
+                    "scount Special!!\",\"recurring\":\"true\",\"physical\":\"false\"},{\"date\":\"2012-11-19T10:" +
+                    "23:45-08:00\",\"receipt\":\"PLWFEJZQ\",\"promo\":{\"@nil\":\"true\"},\"pmtType\":\"VISA\",\"txnT" +
+                    "ype\":\"SALE\",\"item\":\"46\",\"amount\":\"51.05\",\"site\":\"EODDIET\",\"affi\":\"GODFREE120\",\"c" +
+                    "ountry\":\"US\",\"state\":\"FL\",\"lastName\":\"EXAMPLE\",\"firstName\":\"CHRISTINE\",\"currency" +
+                    "\":\"USD\",\"email\":\"test@example.com\",\"zip\":\"11741\",\"rebillAmount\":{\"@nil\":\"true\"}," +
+                    "\"processedPayments\":{\"@nil\":\"true\"},\"futurePayments\":{\"@nil\":\"true\"},\"nextPaymen" +
+                    "tDate\":{\"@nil\":\"true\"},\"status\":{\"@nil\":\"true\"},\"accountAmount\":\"10.54\",\"role\":\"" +
+                    "VENDOR\",\"customerDisplayName\":\"Christine Example\",\"title\":\"The Every Other Day D" +
+                    "iet 2.0: PDF Format (the SNAPP! System)\",\"recurring\":\"false\",\"physical\":\"false\"}" +
+                    ",{\"date\":\"2012-11-24T09:46:46-08:00\",\"receipt\":\"GVP8EJPW\",\"promo\":{\"@nil\":\"true\"" +
+                    "},\"pmtType\":\"VISA\",\"txnType\":\"SALE\",\"item\":\"51\",\"amount\":\"1.00\",\"site\":\"EODDIET\"" +
+                    ",\"affi\":\"JKFJKF\",\"country\":\"US\",\"state\":\"CA\",\"lastName\":\"EXAMPLE\",\"firstName\":\"R" +
+                    "ICK\",\"currency\":\"USD\",\"email\":\"rick@example.com\",\"zip\":\"95624\",\"rebillAmount\":\"4" +
+                    "6.00\",\"processedPayments\":\"1\",\"futurePayments\":\"1\",\"nextPaymentDate\":\"2012-12-15" +
+                    "T09:46:54-08:00\",\"status\":\"CANCELED\",\"accountAmount\":\"0.00\",\"role\":\"VENDOR\",\"cus" +
+                    "tomerDisplayName\":\"Rick Example\",\"title\":\"The EODD Trial Package With Radical Fa" +
+                    "t Loss Blueprint,\"recurring\":\"true\",\"physical\":\"false\"},{\"date\":\"2012-11-25T15:5" +
+                    "2:38-08:00\",\"receipt\":\"H74LFE5N\",\"promo\":{\"@nil\":\"true\"},\"pmtType\":\"PYPL\",\"txnTy" +
+                    "pe\":\"SALE\",\"item\":\"46\",\"amount\":\"47.00\",\"site\":\"EODDIET\",\"affi\":\"2010SOLU\",\"coun" +
+                    "try\":\"US\",\"state\":\"WA\",\"lastName\":\"EXAMPLE\",\"firstName\":\"PETER\",\"currency\":\"USD\"" +
+                    ",\"email\":\"peter@example.com\",\"zip\":\"98155\",\"rebillAmount\":{\"@nil\":\"true\"},\"proce" +
+                    "ssedPayments\":{\"@nil\":\"true\"},\"futurePayments\":{\"@nil\":\"true\"},\"nextPaymentDate\"" +
+                    ":{\"@nil\":\"true\"},\"status\":{\"@nil\":\"true\"},\"accountAmount\":\"10.62\",\"role\":\"VENDOR" +
+                    "\",\"customerDisplayName\":\"Peter Example\",\"title\":\"The Every Other Day Diet 2.0: P" +
+                    "DF Format (the SNAPP! System)\",\"recurring\":\"false\",\"physical\":\"false\"},{\"date\":\"" +
+                    "2013-01-07T14:23:13-08:00\",\"receipt\":\"7698KM8E\",\"promo\":{\"@nil\":\"true\"},\"pmtType" +
+                    "\":\"PYPL\",\"txnType\":\"RFND\",\"item\":\"1\",\"amount\":\"-34.26\",\"site\":\"NUMDIET\",\"affi\":\"" +
+                    "TTYLERAFF\",\"country\":\"GB\",\"state\":{\"@nil\":\"true\"},\"lastName\":{\"@nil\":\"true\"},\"fi" +
+                    "rstName\":{\"@nil\":\"true\"},\"currency\":\"GBP\",\"email\":{\"@nil\":\"true\"},\"zip\":\"BS110HZ" +
+                    "\",\"rebillAmount\":{\"@nil\":\"true\"},\"processedPayments\":{\"@nil\":\"true\"},\"futurePaym" +
+                    "ents\":{\"@nil\":\"true\"},\"nextPaymentDate\":{\"@nil\":\"true\"},\"status\":{\"@nil\":\"true\"}" +
+                    ",\"accountAmount\":\"-11.84\",\"role\":\"AFFILIATE\",\"customerDisplayName\":{\"@nil\":\"true" +
+                    "\"},\"title\":\"The Numerology Diet - the Art and Science of Spiritual Eating\",\"recu" +
+                    "rring\":\"false\",\"physical\":\"false\"},{\"date\":\"2013-01-08T14:23:13-08:00\",\"receipt\"" +
+                    ":\"J2Q2EKTH\",\"promo\":{\"@nil\":\"true\"},\"pmtType\":\"PYPL\",\"txnType\":\"SALE\",\"item\":\"eo" +
+                    "dd\",\"amount\":\"34.26\",\"site\":\"NUMDIET\",\"affi\":\"TTYLERAFF\",\"country\":\"GB\",\"state\":" +
+                    "{\"@nil\":\"true\"},\"lastName\":{\"@nil\":\"true\"},\"firstName\":{\"@nil\":\"true\"},\"currency" +
+                    "\":\"GBP\",\"email\":{\"@nil\":\"true\"},\"zip\":\"BS110HZ\",\"rebillAmount\":{\"@nil\":\"true\"},\"" +
+                    "processedPayments\":{\"@nil\":\"true\"},\"futurePayments\":{\"@nil\":\"true\"},\"nextPayment" +
+                    "Date\":{\"@nil\":\"true\"},\"status\":{\"@nil\":\"true\"},\"accountAmount\":\"11.84\",\"role\":\"A" +
+                    "FFILIATE\",\"customerDisplayName\":{\"@nil\":\"true\"},\"title\":\"The Numerology Diet - t" +
+                    "he Art and Science of Spiritual Eating\",\"recurring\":\"false\",\"physical\":\"false\"}]" +
+                    "}\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 21
- testRunner.Then("I should receive the following", ((string)(null)), table2, "Then ");
+ testRunner.And("an API HttpStatusCode of OK", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 22
+ testRunner.When("I request a list with no paramaters", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 23
+ testRunner.Then("I should receive the following order info \'{\"orderData\": [{\"date\":\"2012-09-26T18:" +
+                    "02:34-07:00\",\"receipt\":\"BZH3EJ28\",\"promo\":{\"@nil\":\"true\"},\"pmtType\":\"MSTR\",\"txnT" +
+                    "ype\":\"SALE\",\"item\":\"400\",\"amount\":\"49.73\",\"site\":\"FITCOOKING\",\"affi\":\"BENGEARY\"," +
+                    "\"country\":\"PH\",\"state\":{\"@nil\":\"true\"},\"lastName\":{\"@nil\":\"true\"},\"firstName\":{\"" +
+                    "@nil\":\"true\"},\"currency\":\"PHP\",\"email\":{\"@nil\":\"true\"},\"zip\":\"1605\",\"rebillAmoun" +
+                    "t\":{\"@nil\":\"true\"},\"processedPayments\":{\"@nil\":\"true\"},\"futurePayments\":{\"@nil\":" +
+                    "\"true\"},\"nextPaymentDate\":{\"@nil\":\"true\"},\"status\":{\"@nil\":\"true\"},\"accountAmoun" +
+                    "t\":\"0.01\",\"role\":\"JV_TRADITIONAL\",\"customerDisplayName\":{\"@nil\":\"true\"},\"title\":" +
+                    "\"Metabolic Cooking Fat Loss Cookbooks Package\",\"recurring\":\"false\",\"physical\":\"f" +
+                    "alse\"},{\"date\":\"2012-10-16T11:41:17-07:00\",\"receipt\":\"9L2LWNE3\",\"promo\":{\"@nil\":" +
+                    "\"true\"},\"pmtType\":\"VISA\",\"txnType\":\"SALE\",\"item\":\"6\",\"amount\":\"37.00\",\"site\":\"NU" +
+                    "MDIET\",\"affi\":\"OUTRAGEOUS\",\"country\":\"US\",\"state\":\"FL\",\"lastName\":\"EXAMPLE\",\"fir" +
+                    "stName\":\"CHRISTINE\",\"currency\":\"USD\",\"email\":\"test@example.com\",\"zip\":\"33146\",\"r" +
+                    "ebillAmount\":\"37.00\",\"processedPayments\":\"2\",\"futurePayments\":\"0\",\"nextPaymentDa" +
+                    "te\":\"2012-12-16T11:41:17-08:00\",\"status\":\"COMPLETED\",\"accountAmount\":\"8.30\",\"rol" +
+                    "e\":\"VENDOR\",\"customerDisplayName\":\"Christine Example\",\"title\":\"Numerology Yoga: " +
+                    "Web-Only Discount Special!!\",\"recurring\":\"true\",\"physical\":\"false\"},{\"date\":\"201" +
+                    "2-11-19T10:23:45-08:00\",\"receipt\":\"PLWFEJZQ\",\"promo\":{\"@nil\":\"true\"},\"pmtType\":\"" +
+                    "VISA\",\"txnType\":\"SALE\",\"item\":\"46\",\"amount\":\"51.05\",\"site\":\"EODDIET\",\"affi\":\"GOD" +
+                    "FREE120\",\"country\":\"US\",\"state\":\"FL\",\"lastName\":\"EXAMPLE\",\"firstName\":\"CHRISTINE" +
+                    "\",\"currency\":\"USD\",\"email\":\"test@example.com\",\"zip\":\"11741\",\"rebillAmount\":{\"@ni" +
+                    "l\":\"true\"},\"processedPayments\":{\"@nil\":\"true\"},\"futurePayments\":{\"@nil\":\"true\"}," +
+                    "\"nextPaymentDate\":{\"@nil\":\"true\"},\"status\":{\"@nil\":\"true\"},\"accountAmount\":\"10.5" +
+                    "4\",\"role\":\"VENDOR\",\"customerDisplayName\":\"Christine Example\",\"title\":\"The Every " +
+                    "Other Day Diet 2.0: PDF Format (the SNAPP! System)\",\"recurring\":\"false\",\"physica" +
+                    "l\":\"false\"},{\"date\":\"2012-11-24T09:46:46-08:00\",\"receipt\":\"GVP8EJPW\",\"promo\":{\"@" +
+                    "nil\":\"true\"},\"pmtType\":\"VISA\",\"txnType\":\"SALE\",\"item\":\"51\",\"amount\":\"1.00\",\"site" +
+                    "\":\"EODDIET\",\"affi\":\"JKFJKF\",\"country\":\"US\",\"state\":\"CA\",\"lastName\":\"EXAMPLE\",\"fi" +
+                    "rstName\":\"RICK\",\"currency\":\"USD\",\"email\":\"rick@example.com\",\"zip\":\"95624\",\"rebil" +
+                    "lAmount\":\"46.00\",\"processedPayments\":\"1\",\"futurePayments\":\"1\",\"nextPaymentDate\":" +
+                    "\"2012-12-15T09:46:54-08:00\",\"status\":\"CANCELED\",\"accountAmount\":\"0.00\",\"role\":\"V" +
+                    "ENDOR\",\"customerDisplayName\":\"Rick Example\",\"title\":\"The EODD Trial Package With" +
+                    " Radical Fat Loss Blueprint,\"recurring\":\"true\",\"physical\":\"false\"},{\"date\":\"2012" +
+                    "-11-25T15:52:38-08:00\",\"receipt\":\"H74LFE5N\",\"promo\":{\"@nil\":\"true\"},\"pmtType\":\"P" +
+                    "YPL\",\"txnType\":\"SALE\",\"item\":\"46\",\"amount\":\"47.00\",\"site\":\"EODDIET\",\"affi\":\"2010" +
+                    "SOLU\",\"country\":\"US\",\"state\":\"WA\",\"lastName\":\"EXAMPLE\",\"firstName\":\"PETER\",\"curr" +
+                    "ency\":\"USD\",\"email\":\"peter@example.com\",\"zip\":\"98155\",\"rebillAmount\":{\"@nil\":\"tr" +
+                    "ue\"},\"processedPayments\":{\"@nil\":\"true\"},\"futurePayments\":{\"@nil\":\"true\"},\"nextP" +
+                    "aymentDate\":{\"@nil\":\"true\"},\"status\":{\"@nil\":\"true\"},\"accountAmount\":\"10.62\",\"ro" +
+                    "le\":\"VENDOR\",\"customerDisplayName\":\"Peter Example\",\"title\":\"The Every Other Day " +
+                    "Diet 2.0: PDF Format (the SNAPP! System)\",\"recurring\":\"false\",\"physical\":\"false\"" +
+                    "},{\"date\":\"2013-01-07T14:23:13-08:00\",\"receipt\":\"7698KM8E\",\"promo\":{\"@nil\":\"true" +
+                    "\"},\"pmtType\":\"PYPL\",\"txnType\":\"RFND\",\"item\":\"1\",\"amount\":\"-34.26\",\"site\":\"NUMDIE" +
+                    "T\",\"affi\":\"TTYLERAFF\",\"country\":\"GB\",\"state\":{\"@nil\":\"true\"},\"lastName\":{\"@nil\":" +
+                    "\"true\"},\"firstName\":{\"@nil\":\"true\"},\"currency\":\"GBP\",\"email\":{\"@nil\":\"true\"},\"zi" +
+                    "p\":\"BS110HZ\",\"rebillAmount\":{\"@nil\":\"true\"},\"processedPayments\":{\"@nil\":\"true\"}," +
+                    "\"futurePayments\":{\"@nil\":\"true\"},\"nextPaymentDate\":{\"@nil\":\"true\"},\"status\":{\"@n" +
+                    "il\":\"true\"},\"accountAmount\":\"-11.84\",\"role\":\"AFFILIATE\",\"customerDisplayName\":{\"" +
+                    "@nil\":\"true\"},\"title\":\"The Numerology Diet - the Art and Science of Spiritual Ea" +
+                    "ting\",\"recurring\":\"false\",\"physical\":\"false\"},{\"date\":\"2013-01-08T14:23:13-08:00" +
+                    "\",\"receipt\":\"J2Q2EKTH\",\"promo\":{\"@nil\":\"true\"},\"pmtType\":\"PYPL\",\"txnType\":\"SALE\"" +
+                    ",\"item\":\"eodd\",\"amount\":\"34.26\",\"site\":\"NUMDIET\",\"affi\":\"TTYLERAFF\",\"country\":\"G" +
+                    "B\",\"state\":{\"@nil\":\"true\"},\"lastName\":{\"@nil\":\"true\"},\"firstName\":{\"@nil\":\"true\"" +
+                    "},\"currency\":\"GBP\",\"email\":{\"@nil\":\"true\"},\"zip\":\"BS110HZ\",\"rebillAmount\":{\"@nil" +
+                    "\":\"true\"},\"processedPayments\":{\"@nil\":\"true\"},\"futurePayments\":{\"@nil\":\"true\"},\"" +
+                    "nextPaymentDate\":{\"@nil\":\"true\"},\"status\":{\"@nil\":\"true\"},\"accountAmount\":\"11.84" +
+                    "\",\"role\":\"AFFILIATE\",\"customerDisplayName\":{\"@nil\":\"true\"},\"title\":\"The Numerolo" +
+                    "gy Diet - the Art and Science of Spiritual Eating\",\"recurring\":\"false\",\"physical" +
+                    "\":\"false\"}]}\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 24
+ testRunner.And("an HttpStatusCode of OK", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -607,170 +370,103 @@ this.FeatureBackground();
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Get a list of orders with a start date", new string[] {
                         "mytag"});
-#line 32
+#line 27
 this.ScenarioSetup(scenarioInfo);
 #line 6
 this.FeatureBackground();
-#line 33
- testRunner.When("I request a list with a \'startDate\' of \'2012-11-19\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line hidden
-            TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
-                        "date",
-                        "receipt",
-                        "promo",
-                        "pmtType",
-                        "txnType",
-                        "item",
-                        "amount",
-                        "site",
-                        "affi",
-                        "country",
-                        "state",
-                        "lastName",
-                        "firstName",
-                        "currency",
-                        "email",
-                        "zip",
-                        "customerContactInfo",
-                        "refundsBlocked",
-                        "blockRefundReason",
-                        "rebillAmount",
-                        "processedPayments",
-                        "futurePayments",
-                        "nextPaymentDate",
-                        "status",
-                        "accountAmount",
-                        "role",
-                        "customerDisplayName",
-                        "title",
-                        "recurring",
-                        "physical"});
-            table3.AddRow(new string[] {
-                        "2012-11-19T10:23:45-08:00",
-                        "PLWFEJZQ",
-                        "",
-                        "VISA",
-                        "SALE",
-                        "46",
-                        "51.05",
-                        "EODDIET",
-                        "GODFREE120",
-                        "US",
-                        "FL",
-                        "EXAMPLE",
-                        "CHRISTINE",
-                        "USD",
-                        "test@example.com",
-                        "11741",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "10.54",
-                        "VENDOR",
-                        "Christine Example",
-                        "The Every Other Day Diet 2.0: PDF Format (the SNAPP! System)",
-                        "false",
-                        "false"});
-            table3.AddRow(new string[] {
-                        "2012-11-24T09:46:46-08:00",
-                        "GVP8EJPW",
-                        "",
-                        "VISA",
-                        "SALE",
-                        "51",
-                        "1.00",
-                        "EODDIET",
-                        "JKFJKF",
-                        "US",
-                        "CA",
-                        "EXAMPLE",
-                        "RICK",
-                        "USD",
-                        "rick@example.com",
-                        "95624",
-                        "",
-                        "",
-                        "",
-                        "46.00",
-                        "1",
-                        "1",
-                        "2012-12-15T09:46:54-08:00",
-                        "CANCELED",
-                        "0.00",
-                        "VENDOR",
-                        "Rick Example",
-                        "The EODD Trial Package With Radical Fat Loss Blueprint",
-                        "true",
-                        "false"});
-            table3.AddRow(new string[] {
-                        "2012-11-25T15:52:38-08:00",
-                        "H74LFE5N",
-                        "",
-                        "PYPL",
-                        "SALE",
-                        "46",
-                        "47.00",
-                        "EODDIET",
-                        "2010SOLU",
-                        "US",
-                        "WA",
-                        "EXAMPLE",
-                        "PETER",
-                        "USD",
-                        "peter@example.com",
-                        "98155",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "10.62",
-                        "VENDOR",
-                        "Peter Example",
-                        "The Every Other Day Diet 2.0: PDF Format (the SNAPP! System)",
-                        "false",
-                        "false"});
-            table3.AddRow(new string[] {
-                        "2013-01-07T14:23:13-08:00",
-                        "7698KM8E",
-                        "",
-                        "PYPL",
-                        "RFND",
-                        "1",
-                        "-34.26",
-                        "NUMDIET",
-                        "TTYLERAFF",
-                        "GB",
-                        "",
-                        "",
-                        "",
-                        "GBP",
-                        "",
-                        "BS110HZ",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "-11.84",
-                        "AFFILIATE",
-                        "",
-                        "The Numerology Diet - the Art and Science of Spiritual Eating",
-                        "false",
-                        "false"});
-#line 34
- testRunner.Then("I should receive the following", ((string)(null)), table3, "Then ");
+#line 28
+ testRunner.And("the following API return value \'{\"orderData\": [{\"date\":\"2012-11-19T10:23:45-08:00" +
+                    "\",\"receipt\":\"PLWFEJZQ\",\"promo\":{\"@nil\":\"true\"},\"pmtType\":\"VISA\",\"txnType\":\"SALE\"" +
+                    ",\"item\":\"46\",\"amount\":\"51.05\",\"site\":\"EODDIET\",\"affi\":\"GODFREE120\",\"country\":\"US" +
+                    "\",\"state\":\"FL\",\"lastName\":\"EXAMPLE\",\"firstName\":\"CHRISTINE\",\"currency\":\"USD\",\"em" +
+                    "ail\":\"test@example.com\",\"zip\":\"11741\",\"rebillAmount\":{\"@nil\":\"true\"},\"processedP" +
+                    "ayments\":{\"@nil\":\"true\"},\"futurePayments\":{\"@nil\":\"true\"},\"nextPaymentDate\":{\"@n" +
+                    "il\":\"true\"},\"status\":{\"@nil\":\"true\"},\"accountAmount\":\"10.54\",\"role\":\"VENDOR\",\"cu" +
+                    "stomerDisplayName\":\"Christine Example\",\"title\":\"The Every Other Day Diet 2.0: PD" +
+                    "F Format (the SNAPP! System)\",\"recurring\":\"false\",\"physical\":\"false\"},{\"date\":\"2" +
+                    "012-11-24T09:46:46-08:00\",\"receipt\":\"GVP8EJPW\",\"promo\":{\"@nil\":\"true\"},\"pmtType\"" +
+                    ":\"VISA\",\"txnType\":\"SALE\",\"item\":\"51\",\"amount\":\"1.00\",\"site\":\"EODDIET\",\"affi\":\"JK" +
+                    "FJKF\",\"country\":\"US\",\"state\":\"CA\",\"lastName\":\"EXAMPLE\",\"firstName\":\"RICK\",\"curre" +
+                    "ncy\":\"USD\",\"email\":\"rick@example.com\",\"zip\":\"95624\",\"rebillAmount\":\"46.00\",\"proc" +
+                    "essedPayments\":\"1\",\"futurePayments\":\"1\",\"nextPaymentDate\":\"2012-12-15T09:46:54-0" +
+                    "8:00\",\"status\":\"CANCELED\",\"accountAmount\":\"0.00\",\"role\":\"VENDOR\",\"customerDispla" +
+                    "yName\":\"Rick Example\",\"title\":\"The EODD Trial Package With Radical Fat Loss Blue" +
+                    "print,\"recurring\":\"true\",\"physical\":\"false\"},{\"date\":\"2012-11-25T15:52:38-08:00\"" +
+                    ",\"receipt\":\"H74LFE5N\",\"promo\":{\"@nil\":\"true\"},\"pmtType\":\"PYPL\",\"txnType\":\"SALE\"," +
+                    "\"item\":\"46\",\"amount\":\"47.00\",\"site\":\"EODDIET\",\"affi\":\"2010SOLU\",\"country\":\"US\",\"" +
+                    "state\":\"WA\",\"lastName\":\"EXAMPLE\",\"firstName\":\"PETER\",\"currency\":\"USD\",\"email\":\"p" +
+                    "eter@example.com\",\"zip\":\"98155\",\"rebillAmount\":{\"@nil\":\"true\"},\"processedPayment" +
+                    "s\":{\"@nil\":\"true\"},\"futurePayments\":{\"@nil\":\"true\"},\"nextPaymentDate\":{\"@nil\":\"t" +
+                    "rue\"},\"status\":{\"@nil\":\"true\"},\"accountAmount\":\"10.62\",\"role\":\"VENDOR\",\"customer" +
+                    "DisplayName\":\"Peter Example\",\"title\":\"The Every Other Day Diet 2.0: PDF Format (" +
+                    "the SNAPP! System)\",\"recurring\":\"false\",\"physical\":\"false\"},{\"date\":\"2013-01-07T" +
+                    "14:23:13-08:00\",\"receipt\":\"7698KM8E\",\"promo\":{\"@nil\":\"true\"},\"pmtType\":\"PYPL\",\"t" +
+                    "xnType\":\"RFND\",\"item\":\"1\",\"amount\":\"-34.26\",\"site\":\"NUMDIET\",\"affi\":\"TTYLERAFF\"," +
+                    "\"country\":\"GB\",\"state\":{\"@nil\":\"true\"},\"lastName\":{\"@nil\":\"true\"},\"firstName\":{\"" +
+                    "@nil\":\"true\"},\"currency\":\"GBP\",\"email\":{\"@nil\":\"true\"},\"zip\":\"BS110HZ\",\"rebillAm" +
+                    "ount\":{\"@nil\":\"true\"},\"processedPayments\":{\"@nil\":\"true\"},\"futurePayments\":{\"@ni" +
+                    "l\":\"true\"},\"nextPaymentDate\":{\"@nil\":\"true\"},\"status\":{\"@nil\":\"true\"},\"accountAm" +
+                    "ount\":\"-11.84\",\"role\":\"AFFILIATE\",\"customerDisplayName\":{\"@nil\":\"true\"},\"title\":" +
+                    "\"The Numerology Diet - the Art and Science of Spiritual Eating\",\"recurring\":\"fal" +
+                    "se\",\"physical\":\"false\"},{\"date\":\"2013-01-08T14:23:13-08:00\",\"receipt\":\"J2Q2EKTH\"" +
+                    ",\"promo\":{\"@nil\":\"true\"},\"pmtType\":\"PYPL\",\"txnType\":\"SALE\",\"item\":\"eodd\",\"amount" +
+                    "\":\"34.26\",\"site\":\"NUMDIET\",\"affi\":\"TTYLERAFF\",\"country\":\"GB\",\"state\":{\"@nil\":\"tr" +
+                    "ue\"},\"lastName\":{\"@nil\":\"true\"},\"firstName\":{\"@nil\":\"true\"},\"currency\":\"GBP\",\"em" +
+                    "ail\":{\"@nil\":\"true\"},\"zip\":\"BS110HZ\",\"rebillAmount\":{\"@nil\":\"true\"},\"processedPa" +
+                    "yments\":{\"@nil\":\"true\"},\"futurePayments\":{\"@nil\":\"true\"},\"nextPaymentDate\":{\"@ni" +
+                    "l\":\"true\"},\"status\":{\"@nil\":\"true\"},\"accountAmount\":\"11.84\",\"role\":\"AFFILIATE\",\"" +
+                    "customerDisplayName\":{\"@nil\":\"true\"},\"title\":\"The Numerology Diet - the Art and " +
+                    "Science of Spiritual Eating\",\"recurring\":\"false\",\"physical\":\"false\"}]}\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 29
+ testRunner.And("an API HttpStatusCode of OK", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 30
+ testRunner.When("I set the paramater \'startDate\' of \'2012-11-19\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 31
+ testRunner.And("call a list with those parameters", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 32
+ testRunner.Then("I should receive the following order info \'{\"orderData\": [{\"date\":\"2012-11-19T10:" +
+                    "23:45-08:00\",\"receipt\":\"PLWFEJZQ\",\"promo\":{\"@nil\":\"true\"},\"pmtType\":\"VISA\",\"txnT" +
+                    "ype\":\"SALE\",\"item\":\"46\",\"amount\":\"51.05\",\"site\":\"EODDIET\",\"affi\":\"GODFREE120\",\"c" +
+                    "ountry\":\"US\",\"state\":\"FL\",\"lastName\":\"EXAMPLE\",\"firstName\":\"CHRISTINE\",\"currency" +
+                    "\":\"USD\",\"email\":\"test@example.com\",\"zip\":\"11741\",\"rebillAmount\":{\"@nil\":\"true\"}," +
+                    "\"processedPayments\":{\"@nil\":\"true\"},\"futurePayments\":{\"@nil\":\"true\"},\"nextPaymen" +
+                    "tDate\":{\"@nil\":\"true\"},\"status\":{\"@nil\":\"true\"},\"accountAmount\":\"10.54\",\"role\":\"" +
+                    "VENDOR\",\"customerDisplayName\":\"Christine Example\",\"title\":\"The Every Other Day D" +
+                    "iet 2.0: PDF Format (the SNAPP! System)\",\"recurring\":\"false\",\"physical\":\"false\"}" +
+                    ",{\"date\":\"2012-11-24T09:46:46-08:00\",\"receipt\":\"GVP8EJPW\",\"promo\":{\"@nil\":\"true\"" +
+                    "},\"pmtType\":\"VISA\",\"txnType\":\"SALE\",\"item\":\"51\",\"amount\":\"1.00\",\"site\":\"EODDIET\"" +
+                    ",\"affi\":\"JKFJKF\",\"country\":\"US\",\"state\":\"CA\",\"lastName\":\"EXAMPLE\",\"firstName\":\"R" +
+                    "ICK\",\"currency\":\"USD\",\"email\":\"rick@example.com\",\"zip\":\"95624\",\"rebillAmount\":\"4" +
+                    "6.00\",\"processedPayments\":\"1\",\"futurePayments\":\"1\",\"nextPaymentDate\":\"2012-12-15" +
+                    "T09:46:54-08:00\",\"status\":\"CANCELED\",\"accountAmount\":\"0.00\",\"role\":\"VENDOR\",\"cus" +
+                    "tomerDisplayName\":\"Rick Example\",\"title\":\"The EODD Trial Package With Radical Fa" +
+                    "t Loss Blueprint,\"recurring\":\"true\",\"physical\":\"false\"},{\"date\":\"2012-11-25T15:5" +
+                    "2:38-08:00\",\"receipt\":\"H74LFE5N\",\"promo\":{\"@nil\":\"true\"},\"pmtType\":\"PYPL\",\"txnTy" +
+                    "pe\":\"SALE\",\"item\":\"46\",\"amount\":\"47.00\",\"site\":\"EODDIET\",\"affi\":\"2010SOLU\",\"coun" +
+                    "try\":\"US\",\"state\":\"WA\",\"lastName\":\"EXAMPLE\",\"firstName\":\"PETER\",\"currency\":\"USD\"" +
+                    ",\"email\":\"peter@example.com\",\"zip\":\"98155\",\"rebillAmount\":{\"@nil\":\"true\"},\"proce" +
+                    "ssedPayments\":{\"@nil\":\"true\"},\"futurePayments\":{\"@nil\":\"true\"},\"nextPaymentDate\"" +
+                    ":{\"@nil\":\"true\"},\"status\":{\"@nil\":\"true\"},\"accountAmount\":\"10.62\",\"role\":\"VENDOR" +
+                    "\",\"customerDisplayName\":\"Peter Example\",\"title\":\"The Every Other Day Diet 2.0: P" +
+                    "DF Format (the SNAPP! System)\",\"recurring\":\"false\",\"physical\":\"false\"},{\"date\":\"" +
+                    "2013-01-07T14:23:13-08:00\",\"receipt\":\"7698KM8E\",\"promo\":{\"@nil\":\"true\"},\"pmtType" +
+                    "\":\"PYPL\",\"txnType\":\"RFND\",\"item\":\"1\",\"amount\":\"-34.26\",\"site\":\"NUMDIET\",\"affi\":\"" +
+                    "TTYLERAFF\",\"country\":\"GB\",\"state\":{\"@nil\":\"true\"},\"lastName\":{\"@nil\":\"true\"},\"fi" +
+                    "rstName\":{\"@nil\":\"true\"},\"currency\":\"GBP\",\"email\":{\"@nil\":\"true\"},\"zip\":\"BS110HZ" +
+                    "\",\"rebillAmount\":{\"@nil\":\"true\"},\"processedPayments\":{\"@nil\":\"true\"},\"futurePaym" +
+                    "ents\":{\"@nil\":\"true\"},\"nextPaymentDate\":{\"@nil\":\"true\"},\"status\":{\"@nil\":\"true\"}" +
+                    ",\"accountAmount\":\"-11.84\",\"role\":\"AFFILIATE\",\"customerDisplayName\":{\"@nil\":\"true" +
+                    "\"},\"title\":\"The Numerology Diet - the Art and Science of Spiritual Eating\",\"recu" +
+                    "rring\":\"false\",\"physical\":\"false\"},{\"date\":\"2013-01-08T14:23:13-08:00\",\"receipt\"" +
+                    ":\"J2Q2EKTH\",\"promo\":{\"@nil\":\"true\"},\"pmtType\":\"PYPL\",\"txnType\":\"SALE\",\"item\":\"eo" +
+                    "dd\",\"amount\":\"34.26\",\"site\":\"NUMDIET\",\"affi\":\"TTYLERAFF\",\"country\":\"GB\",\"state\":" +
+                    "{\"@nil\":\"true\"},\"lastName\":{\"@nil\":\"true\"},\"firstName\":{\"@nil\":\"true\"},\"currency" +
+                    "\":\"GBP\",\"email\":{\"@nil\":\"true\"},\"zip\":\"BS110HZ\",\"rebillAmount\":{\"@nil\":\"true\"},\"" +
+                    "processedPayments\":{\"@nil\":\"true\"},\"futurePayments\":{\"@nil\":\"true\"},\"nextPayment" +
+                    "Date\":{\"@nil\":\"true\"},\"status\":{\"@nil\":\"true\"},\"accountAmount\":\"11.84\",\"role\":\"A" +
+                    "FFILIATE\",\"customerDisplayName\":{\"@nil\":\"true\"},\"title\":\"The Numerology Diet - t" +
+                    "he Art and Science of Spiritual Eating\",\"recurring\":\"false\",\"physical\":\"false\"}]" +
+                    "}\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -782,141 +478,70 @@ this.FeatureBackground();
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Get a list of orders between two dates", new string[] {
                         "mytag"});
-#line 42
+#line 35
 this.ScenarioSetup(scenarioInfo);
 #line 6
 this.FeatureBackground();
-#line 43
- testRunner.When("I request a list with a \'startDate\' of \'2012-11-19\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 44
+#line 36
+ testRunner.And("the following API return value \'{\"orderData\": [{\"date\":\"2012-11-19T10:23:45-08:00" +
+                    "\",\"receipt\":\"PLWFEJZQ\",\"promo\":{\"@nil\":\"true\"},\"pmtType\":\"VISA\",\"txnType\":\"SALE\"" +
+                    ",\"item\":\"46\",\"amount\":\"51.05\",\"site\":\"EODDIET\",\"affi\":\"GODFREE120\",\"country\":\"US" +
+                    "\",\"state\":\"FL\",\"lastName\":\"EXAMPLE\",\"firstName\":\"CHRISTINE\",\"currency\":\"USD\",\"em" +
+                    "ail\":\"test@example.com\",\"zip\":\"11741\",\"rebillAmount\":{\"@nil\":\"true\"},\"processedP" +
+                    "ayments\":{\"@nil\":\"true\"},\"futurePayments\":{\"@nil\":\"true\"},\"nextPaymentDate\":{\"@n" +
+                    "il\":\"true\"},\"status\":{\"@nil\":\"true\"},\"accountAmount\":\"10.54\",\"role\":\"VENDOR\",\"cu" +
+                    "stomerDisplayName\":\"Christine Example\",\"title\":\"The Every Other Day Diet 2.0: PD" +
+                    "F Format (the SNAPP! System)\",\"recurring\":\"false\",\"physical\":\"false\"},{\"date\":\"2" +
+                    "012-11-24T09:46:46-08:00\",\"receipt\":\"GVP8EJPW\",\"promo\":{\"@nil\":\"true\"},\"pmtType\"" +
+                    ":\"VISA\",\"txnType\":\"SALE\",\"item\":\"51\",\"amount\":\"1.00\",\"site\":\"EODDIET\",\"affi\":\"JK" +
+                    "FJKF\",\"country\":\"US\",\"state\":\"CA\",\"lastName\":\"EXAMPLE\",\"firstName\":\"RICK\",\"curre" +
+                    "ncy\":\"USD\",\"email\":\"rick@example.com\",\"zip\":\"95624\",\"rebillAmount\":\"46.00\",\"proc" +
+                    "essedPayments\":\"1\",\"futurePayments\":\"1\",\"nextPaymentDate\":\"2012-12-15T09:46:54-0" +
+                    "8:00\",\"status\":\"CANCELED\",\"accountAmount\":\"0.00\",\"role\":\"VENDOR\",\"customerDispla" +
+                    "yName\":\"Rick Example\",\"title\":\"The EODD Trial Package With Radical Fat Loss Blue" +
+                    "print,\"recurring\":\"true\",\"physical\":\"false\"},{\"date\":\"2012-11-25T15:52:38-08:00\"" +
+                    ",\"receipt\":\"H74LFE5N\",\"promo\":{\"@nil\":\"true\"},\"pmtType\":\"PYPL\",\"txnType\":\"SALE\"," +
+                    "\"item\":\"46\",\"amount\":\"47.00\",\"site\":\"EODDIET\",\"affi\":\"2010SOLU\",\"country\":\"US\",\"" +
+                    "state\":\"WA\",\"lastName\":\"EXAMPLE\",\"firstName\":\"PETER\",\"currency\":\"USD\",\"email\":\"p" +
+                    "eter@example.com\",\"zip\":\"98155\",\"rebillAmount\":{\"@nil\":\"true\"},\"processedPayment" +
+                    "s\":{\"@nil\":\"true\"},\"futurePayments\":{\"@nil\":\"true\"},\"nextPaymentDate\":{\"@nil\":\"t" +
+                    "rue\"},\"status\":{\"@nil\":\"true\"},\"accountAmount\":\"10.62\",\"role\":\"VENDOR\",\"customer" +
+                    "DisplayName\":\"Peter Example\",\"title\":\"The Every Other Day Diet 2.0: PDF Format (" +
+                    "the SNAPP! System)\",\"recurring\":\"false\",\"physical\":\"false\"}]}\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 37
+ testRunner.And("an API HttpStatusCode of OK", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 38
+ testRunner.When("I set the paramater \'startDate\' of \'2012-11-19\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 39
  testRunner.And("\'endDate\' of \'2012-11-25\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-            TechTalk.SpecFlow.Table table4 = new TechTalk.SpecFlow.Table(new string[] {
-                        "date",
-                        "receipt",
-                        "promo",
-                        "pmtType",
-                        "txnType",
-                        "item",
-                        "amount",
-                        "site",
-                        "affi",
-                        "country",
-                        "state",
-                        "lastName",
-                        "firstName",
-                        "currency",
-                        "email",
-                        "zip",
-                        "customerContactInfo",
-                        "refundsBlocked",
-                        "blockRefundReason",
-                        "rebillAmount",
-                        "processedPayments",
-                        "futurePayments",
-                        "nextPaymentDate",
-                        "status",
-                        "accountAmount",
-                        "role",
-                        "customerDisplayName",
-                        "title",
-                        "recurring",
-                        "physical"});
-            table4.AddRow(new string[] {
-                        "2012-11-19T10:23:45-08:00",
-                        "PLWFEJZQ",
-                        "",
-                        "VISA",
-                        "SALE",
-                        "46",
-                        "51.05",
-                        "EODDIET",
-                        "GODFREE120",
-                        "US",
-                        "FL",
-                        "EXAMPLE",
-                        "CHRISTINE",
-                        "USD",
-                        "test@example.com",
-                        "11741",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "10.54",
-                        "VENDOR",
-                        "Christine Example",
-                        "The Every Other Day Diet 2.0: PDF Format (the SNAPP! System)",
-                        "false",
-                        "false"});
-            table4.AddRow(new string[] {
-                        "2012-11-24T09:46:46-08:00",
-                        "GVP8EJPW",
-                        "",
-                        "VISA",
-                        "SALE",
-                        "51",
-                        "1.00",
-                        "EODDIET",
-                        "JKFJKF",
-                        "US",
-                        "CA",
-                        "EXAMPLE",
-                        "RICK",
-                        "USD",
-                        "rick@example.com",
-                        "95624",
-                        "",
-                        "",
-                        "",
-                        "46.00",
-                        "1",
-                        "1",
-                        "2012-12-15T09:46:54-08:00",
-                        "CANCELED",
-                        "0.00",
-                        "VENDOR",
-                        "Rick Example",
-                        "The EODD Trial Package With Radical Fat Loss Blueprint",
-                        "true",
-                        "false"});
-            table4.AddRow(new string[] {
-                        "2012-11-25T15:52:38-08:00",
-                        "H74LFE5N",
-                        "",
-                        "PYPL",
-                        "SALE",
-                        "46",
-                        "47.00",
-                        "EODDIET",
-                        "2010SOLU",
-                        "US",
-                        "WA",
-                        "EXAMPLE",
-                        "PETER",
-                        "USD",
-                        "peter@example.com",
-                        "98155",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "10.62",
-                        "VENDOR",
-                        "Peter Example",
-                        "The Every Other Day Diet 2.0: PDF Format (the SNAPP! System)",
-                        "false",
-                        "false"});
-#line 45
- testRunner.Then("I should receive the following", ((string)(null)), table4, "Then ");
+#line 40
+ testRunner.And("call a list with those parameters", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 41
+ testRunner.Then("I should receive the following order info \'{\"orderData\": [{\"date\":\"2012-11-19T10:" +
+                    "23:45-08:00\",\"receipt\":\"PLWFEJZQ\",\"promo\":{\"@nil\":\"true\"},\"pmtType\":\"VISA\",\"txnT" +
+                    "ype\":\"SALE\",\"item\":\"46\",\"amount\":\"51.05\",\"site\":\"EODDIET\",\"affi\":\"GODFREE120\",\"c" +
+                    "ountry\":\"US\",\"state\":\"FL\",\"lastName\":\"EXAMPLE\",\"firstName\":\"CHRISTINE\",\"currency" +
+                    "\":\"USD\",\"email\":\"test@example.com\",\"zip\":\"11741\",\"rebillAmount\":{\"@nil\":\"true\"}," +
+                    "\"processedPayments\":{\"@nil\":\"true\"},\"futurePayments\":{\"@nil\":\"true\"},\"nextPaymen" +
+                    "tDate\":{\"@nil\":\"true\"},\"status\":{\"@nil\":\"true\"},\"accountAmount\":\"10.54\",\"role\":\"" +
+                    "VENDOR\",\"customerDisplayName\":\"Christine Example\",\"title\":\"The Every Other Day D" +
+                    "iet 2.0: PDF Format (the SNAPP! System)\",\"recurring\":\"false\",\"physical\":\"false\"}" +
+                    ",{\"date\":\"2012-11-24T09:46:46-08:00\",\"receipt\":\"GVP8EJPW\",\"promo\":{\"@nil\":\"true\"" +
+                    "},\"pmtType\":\"VISA\",\"txnType\":\"SALE\",\"item\":\"51\",\"amount\":\"1.00\",\"site\":\"EODDIET\"" +
+                    ",\"affi\":\"JKFJKF\",\"country\":\"US\",\"state\":\"CA\",\"lastName\":\"EXAMPLE\",\"firstName\":\"R" +
+                    "ICK\",\"currency\":\"USD\",\"email\":\"rick@example.com\",\"zip\":\"95624\",\"rebillAmount\":\"4" +
+                    "6.00\",\"processedPayments\":\"1\",\"futurePayments\":\"1\",\"nextPaymentDate\":\"2012-12-15" +
+                    "T09:46:54-08:00\",\"status\":\"CANCELED\",\"accountAmount\":\"0.00\",\"role\":\"VENDOR\",\"cus" +
+                    "tomerDisplayName\":\"Rick Example\",\"title\":\"The EODD Trial Package With Radical Fa" +
+                    "t Loss Blueprint,\"recurring\":\"true\",\"physical\":\"false\"},{\"date\":\"2012-11-25T15:5" +
+                    "2:38-08:00\",\"receipt\":\"H74LFE5N\",\"promo\":{\"@nil\":\"true\"},\"pmtType\":\"PYPL\",\"txnTy" +
+                    "pe\":\"SALE\",\"item\":\"46\",\"amount\":\"47.00\",\"site\":\"EODDIET\",\"affi\":\"2010SOLU\",\"coun" +
+                    "try\":\"US\",\"state\":\"WA\",\"lastName\":\"EXAMPLE\",\"firstName\":\"PETER\",\"currency\":\"USD\"" +
+                    ",\"email\":\"peter@example.com\",\"zip\":\"98155\",\"rebillAmount\":{\"@nil\":\"true\"},\"proce" +
+                    "ssedPayments\":{\"@nil\":\"true\"},\"futurePayments\":{\"@nil\":\"true\"},\"nextPaymentDate\"" +
+                    ":{\"@nil\":\"true\"},\"status\":{\"@nil\":\"true\"},\"accountAmount\":\"10.62\",\"role\":\"VENDOR" +
+                    "\",\"customerDisplayName\":\"Peter Example\",\"title\":\"The Every Other Day Diet 2.0: P" +
+                    "DF Format (the SNAPP! System)\",\"recurring\":\"false\",\"physical\":\"false\"}]}\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -928,867 +553,165 @@ this.FeatureBackground();
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Get a list of orders by email", new string[] {
                         "mytag"});
+#line 44
+this.ScenarioSetup(scenarioInfo);
+#line 6
+this.FeatureBackground();
+#line 45
+ testRunner.And(@"the following API return value '{""orderData"": [{""date"":""2012-11-25T15:52:38-08:00"",""receipt"":""H74LFE5N"",""promo"":{""@nil"":""true""},""pmtType"":""PYPL"",""txnType"":""SALE"",""item"":""46"",""amount"":""47.00"",""site"":""EODDIET"",""affi"":""2010SOLU"",""country"":""US"",""state"":""WA"",""lastName"":""EXAMPLE"",""firstName"":""PETER"",""currency"":""USD"",""email"":""peter@example.com"",""zip"":""98155"",""rebillAmount"":{""@nil"":""true""},""processedPayments"":{""@nil"":""true""},""futurePayments"":{""@nil"":""true""},""nextPaymentDate"":{""@nil"":""true""},""status"":{""@nil"":""true""},""accountAmount"":""10.62"",""role"":""VENDOR"",""customerDisplayName"":""Peter Example"",""title"":""The Every Other Day Diet 2.0: PDF Format (the SNAPP! System)"",""recurring"":""false"",""physical"":""false""}]}'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 46
+ testRunner.And("an API HttpStatusCode of OK", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 47
+ testRunner.When("I set the paramater \'email\' of \'peter@example.com\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 48
+ testRunner.And("call a list with those parameters", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 49
+ testRunner.Then(@"I should receive the following order info '{""orderData"": [{""date"":""2012-11-25T15:52:38-08:00"",""receipt"":""H74LFE5N"",""promo"":{""@nil"":""true""},""pmtType"":""PYPL"",""txnType"":""SALE"",""item"":""46"",""amount"":""47.00"",""site"":""EODDIET"",""affi"":""2010SOLU"",""country"":""US"",""state"":""WA"",""lastName"":""EXAMPLE"",""firstName"":""PETER"",""currency"":""USD"",""email"":""peter@example.com"",""zip"":""98155"",""rebillAmount"":{""@nil"":""true""},""processedPayments"":{""@nil"":""true""},""futurePayments"":{""@nil"":""true""},""nextPaymentDate"":{""@nil"":""true""},""status"":{""@nil"":""true""},""accountAmount"":""10.62"",""role"":""VENDOR"",""customerDisplayName"":""Peter Example"",""title"":""The Every Other Day Diet 2.0: PDF Format (the SNAPP! System)"",""recurring"":""false"",""physical"":""false""}]}'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [Xunit.FactAttribute()]
+        [Xunit.TraitAttribute("FeatureTitle", "Get A List of Orders When Requesting with Valid Credentials")]
+        [Xunit.TraitAttribute("Description", "Get Page Content")]
+        public virtual void GetPageContent()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Get Page Content", new string[] {
+                        "mytag"});
 #line 52
 this.ScenarioSetup(scenarioInfo);
 #line 6
 this.FeatureBackground();
 #line 53
- testRunner.When("I request a list with a \'email\' of \'peter@example.com\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line hidden
-            TechTalk.SpecFlow.Table table5 = new TechTalk.SpecFlow.Table(new string[] {
-                        "date",
-                        "receipt",
-                        "promo",
-                        "pmtType",
-                        "txnType",
-                        "item",
-                        "amount",
-                        "site",
-                        "affi",
-                        "country",
-                        "state",
-                        "lastName",
-                        "firstName",
-                        "currency",
-                        "email",
-                        "zip",
-                        "customerContactInfo",
-                        "refundsBlocked",
-                        "blockRefundReason",
-                        "rebillAmount",
-                        "processedPayments",
-                        "futurePayments",
-                        "nextPaymentDate",
-                        "status",
-                        "accountAmount",
-                        "role",
-                        "customerDisplayName",
-                        "title",
-                        "recurring",
-                        "physical"});
-            table5.AddRow(new string[] {
-                        "2012-10-16T11:41:17-07:00",
-                        "9L2LWNE3",
-                        "",
-                        "VISA",
-                        "SALE",
-                        "6",
-                        "37.00",
-                        "NUMDIET",
-                        "OUTRAGEOUS",
-                        "US",
-                        "FL",
-                        "EXAMPLE",
-                        "CHRISTINE",
-                        "USD",
-                        "test@example.com",
-                        "33146",
-                        "",
-                        "",
-                        "",
-                        "37.00",
-                        "2",
-                        "0",
-                        "2012-12-16T11:41:17-08:00",
-                        "COMPLETED",
-                        "8.30",
-                        "VENDOR",
-                        "Christine Example",
-                        "Numerology Yoga: Web-Only Discount Special!",
-                        "true",
-                        "false"});
-            table5.AddRow(new string[] {
-                        "2012-11-19T10:23:45-08:00",
-                        "PLWFEJZQ",
-                        "",
-                        "VISA",
-                        "SALE",
-                        "46",
-                        "51.05",
-                        "EODDIET",
-                        "GODFREE120",
-                        "US",
-                        "FL",
-                        "EXAMPLE",
-                        "CHRISTINE",
-                        "USD",
-                        "test@example.com",
-                        "11741",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "10.54",
-                        "VENDOR",
-                        "Christine Example",
-                        "The Every Other Day Diet 2.0: PDF Format (the SNAPP! System)",
-                        "false",
-                        "false"});
+ testRunner.And("the following API Page 1 return value \'{\"orderData\": [{\"date\":\"2012-09-26T18:02:3" +
+                    "4-07:00\",\"receipt\":\"BZH3EJ28\",\"promo\":{\"@nil\":\"true\"},\"pmtType\":\"MSTR\",\"txnType\"" +
+                    ":\"SALE\",\"item\":\"400\",\"amount\":\"49.73\",\"site\":\"FITCOOKING\",\"affi\":\"BENGEARY\",\"cou" +
+                    "ntry\":\"PH\",\"state\":{\"@nil\":\"true\"},\"lastName\":{\"@nil\":\"true\"},\"firstName\":{\"@nil" +
+                    "\":\"true\"},\"currency\":\"PHP\",\"email\":{\"@nil\":\"true\"},\"zip\":\"1605\",\"rebillAmount\":{" +
+                    "\"@nil\":\"true\"},\"processedPayments\":{\"@nil\":\"true\"},\"futurePayments\":{\"@nil\":\"tru" +
+                    "e\"},\"nextPaymentDate\":{\"@nil\":\"true\"},\"status\":{\"@nil\":\"true\"},\"accountAmount\":\"" +
+                    "0.01\",\"role\":\"JV_TRADITIONAL\",\"customerDisplayName\":{\"@nil\":\"true\"},\"title\":\"Met" +
+                    "abolic Cooking Fat Loss Cookbooks Package\",\"recurring\":\"false\",\"physical\":\"false" +
+                    "\"},{\"date\":\"2012-10-16T11:41:17-07:00\",\"receipt\":\"9L2LWNE3\",\"promo\":{\"@nil\":\"tru" +
+                    "e\"},\"pmtType\":\"VISA\",\"txnType\":\"SALE\",\"item\":\"6\",\"amount\":\"37.00\",\"site\":\"NUMDIE" +
+                    "T\",\"affi\":\"OUTRAGEOUS\",\"country\":\"US\",\"state\":\"FL\",\"lastName\":\"EXAMPLE\",\"firstNa" +
+                    "me\":\"CHRISTINE\",\"currency\":\"USD\",\"email\":\"test@example.com\",\"zip\":\"33146\",\"rebil" +
+                    "lAmount\":\"37.00\",\"processedPayments\":\"2\",\"futurePayments\":\"0\",\"nextPaymentDate\":" +
+                    "\"2012-12-16T11:41:17-08:00\",\"status\":\"COMPLETED\",\"accountAmount\":\"8.30\",\"role\":\"" +
+                    "VENDOR\",\"customerDisplayName\":\"Christine Example\",\"title\":\"Numerology Yoga: Web-" +
+                    "Only Discount Special!!\",\"recurring\":\"true\",\"physical\":\"false\"},{\"date\":\"2012-11" +
+                    "-19T10:23:45-08:00\",\"receipt\":\"PLWFEJZQ\",\"promo\":{\"@nil\":\"true\"},\"pmtType\":\"VISA" +
+                    "\",\"txnType\":\"SALE\",\"item\":\"46\",\"amount\":\"51.05\",\"site\":\"EODDIET\",\"affi\":\"GODFREE" +
+                    "120\",\"country\":\"US\",\"state\":\"FL\",\"lastName\":\"EXAMPLE\",\"firstName\":\"CHRISTINE\",\"c" +
+                    "urrency\":\"USD\",\"email\":\"test@example.com\",\"zip\":\"11741\",\"rebillAmount\":{\"@nil\":\"" +
+                    "true\"},\"processedPayments\":{\"@nil\":\"true\"},\"futurePayments\":{\"@nil\":\"true\"},\"nex" +
+                    "tPaymentDate\":{\"@nil\":\"true\"},\"status\":{\"@nil\":\"true\"},\"accountAmount\":\"10.54\",\"" +
+                    "role\":\"VENDOR\",\"customerDisplayName\":\"Christine Example\",\"title\":\"The Every Othe" +
+                    "r Day Diet 2.0: PDF Format (the SNAPP! System)\",\"recurring\":\"false\",\"physical\":\"" +
+                    "false\"}]}\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 54
- testRunner.Then("I should receive the following", ((string)(null)), table5, "Then ");
+ testRunner.And("the following API Page 2 return value \'{\"orderData\": [{\"date\":\"2012-11-24T09:46:4" +
+                    "6-08:00\",\"receipt\":\"GVP8EJPW\",\"promo\":{\"@nil\":\"true\"},\"pmtType\":\"VISA\",\"txnType\"" +
+                    ":\"SALE\",\"item\":\"51\",\"amount\":\"1.00\",\"site\":\"EODDIET\",\"affi\":\"JKFJKF\",\"country\":\"" +
+                    "US\",\"state\":\"CA\",\"lastName\":\"EXAMPLE\",\"firstName\":\"RICK\",\"currency\":\"USD\",\"email" +
+                    "\":\"rick@example.com\",\"zip\":\"95624\",\"rebillAmount\":\"46.00\",\"processedPayments\":\"1" +
+                    "\",\"futurePayments\":\"1\",\"nextPaymentDate\":\"2012-12-15T09:46:54-08:00\",\"status\":\"C" +
+                    "ANCELED\",\"accountAmount\":\"0.00\",\"role\":\"VENDOR\",\"customerDisplayName\":\"Rick Exam" +
+                    "ple\",\"title\":\"The EODD Trial Package With Radical Fat Loss Blueprint,\"recurring\"" +
+                    ":\"true\",\"physical\":\"false\"},{\"date\":\"2012-11-25T15:52:38-08:00\",\"receipt\":\"H74LF" +
+                    "E5N\",\"promo\":{\"@nil\":\"true\"},\"pmtType\":\"PYPL\",\"txnType\":\"SALE\",\"item\":\"46\",\"amou" +
+                    "nt\":\"47.00\",\"site\":\"EODDIET\",\"affi\":\"2010SOLU\",\"country\":\"US\",\"state\":\"WA\",\"last" +
+                    "Name\":\"EXAMPLE\",\"firstName\":\"PETER\",\"currency\":\"USD\",\"email\":\"peter@example.com\"" +
+                    ",\"zip\":\"98155\",\"rebillAmount\":{\"@nil\":\"true\"},\"processedPayments\":{\"@nil\":\"true\"" +
+                    "},\"futurePayments\":{\"@nil\":\"true\"},\"nextPaymentDate\":{\"@nil\":\"true\"},\"status\":{\"" +
+                    "@nil\":\"true\"},\"accountAmount\":\"10.62\",\"role\":\"VENDOR\",\"customerDisplayName\":\"Pet" +
+                    "er Example\",\"title\":\"The Every Other Day Diet 2.0: PDF Format (the SNAPP! System" +
+                    ")\",\"recurring\":\"false\",\"physical\":\"false\"},{\"date\":\"2013-01-07T14:23:13-08:00\",\"" +
+                    "receipt\":\"7698KM8E\",\"promo\":{\"@nil\":\"true\"},\"pmtType\":\"PYPL\",\"txnType\":\"RFND\",\"i" +
+                    "tem\":\"1\",\"amount\":\"-34.26\",\"site\":\"NUMDIET\",\"affi\":\"TTYLERAFF\",\"country\":\"GB\",\"s" +
+                    "tate\":{\"@nil\":\"true\"},\"lastName\":{\"@nil\":\"true\"},\"firstName\":{\"@nil\":\"true\"},\"cu" +
+                    "rrency\":\"GBP\",\"email\":{\"@nil\":\"true\"},\"zip\":\"BS110HZ\",\"rebillAmount\":{\"@nil\":\"tr" +
+                    "ue\"},\"processedPayments\":{\"@nil\":\"true\"},\"futurePayments\":{\"@nil\":\"true\"},\"nextP" +
+                    "aymentDate\":{\"@nil\":\"true\"},\"status\":{\"@nil\":\"true\"},\"accountAmount\":\"-11.84\",\"r" +
+                    "ole\":\"AFFILIATE\",\"customerDisplayName\":{\"@nil\":\"true\"},\"title\":\"The Numerology D" +
+                    "iet - the Art and Science of Spiritual Eating\",\"recurring\":\"false\",\"physical\":\"f" +
+                    "alse\"},{\"date\":\"2013-01-08T14:23:13-08:00\",\"receipt\":\"J2Q2EKTH\",\"promo\":{\"@nil\":" +
+                    "\"true\"},\"pmtType\":\"PYPL\",\"txnType\":\"SALE\",\"item\":\"eodd\",\"amount\":\"34.26\",\"site\":" +
+                    "\"NUMDIET\",\"affi\":\"TTYLERAFF\",\"country\":\"GB\",\"state\":{\"@nil\":\"true\"},\"lastName\":{" +
+                    "\"@nil\":\"true\"},\"firstName\":{\"@nil\":\"true\"},\"currency\":\"GBP\",\"email\":{\"@nil\":\"tru" +
+                    "e\"},\"zip\":\"BS110HZ\",\"rebillAmount\":{\"@nil\":\"true\"},\"processedPayments\":{\"@nil\":\"" +
+                    "true\"},\"futurePayments\":{\"@nil\":\"true\"},\"nextPaymentDate\":{\"@nil\":\"true\"},\"statu" +
+                    "s\":{\"@nil\":\"true\"},\"accountAmount\":\"11.84\",\"role\":\"AFFILIATE\",\"customerDisplayNa" +
+                    "me\":{\"@nil\":\"true\"},\"title\":\"The Numerology Diet - the Art and Science of Spirit" +
+                    "ual Eating\",\"recurring\":\"false\",\"physical\":\"false\"}]}\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 55
+ testRunner.And("an API HttpStatusCode of PartialContent", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 56
+ testRunner.When("I Request Page 1", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 57
+ testRunner.Then("I should receive the following order info \'{\"orderData\": [{\"date\":\"2012-09-26T18:" +
+                    "02:34-07:00\",\"receipt\":\"BZH3EJ28\",\"promo\":{\"@nil\":\"true\"},\"pmtType\":\"MSTR\",\"txnT" +
+                    "ype\":\"SALE\",\"item\":\"400\",\"amount\":\"49.73\",\"site\":\"FITCOOKING\",\"affi\":\"BENGEARY\"," +
+                    "\"country\":\"PH\",\"state\":{\"@nil\":\"true\"},\"lastName\":{\"@nil\":\"true\"},\"firstName\":{\"" +
+                    "@nil\":\"true\"},\"currency\":\"PHP\",\"email\":{\"@nil\":\"true\"},\"zip\":\"1605\",\"rebillAmoun" +
+                    "t\":{\"@nil\":\"true\"},\"processedPayments\":{\"@nil\":\"true\"},\"futurePayments\":{\"@nil\":" +
+                    "\"true\"},\"nextPaymentDate\":{\"@nil\":\"true\"},\"status\":{\"@nil\":\"true\"},\"accountAmoun" +
+                    "t\":\"0.01\",\"role\":\"JV_TRADITIONAL\",\"customerDisplayName\":{\"@nil\":\"true\"},\"title\":" +
+                    "\"Metabolic Cooking Fat Loss Cookbooks Package\",\"recurring\":\"false\",\"physical\":\"f" +
+                    "alse\"},{\"date\":\"2012-10-16T11:41:17-07:00\",\"receipt\":\"9L2LWNE3\",\"promo\":{\"@nil\":" +
+                    "\"true\"},\"pmtType\":\"VISA\",\"txnType\":\"SALE\",\"item\":\"6\",\"amount\":\"37.00\",\"site\":\"NU" +
+                    "MDIET\",\"affi\":\"OUTRAGEOUS\",\"country\":\"US\",\"state\":\"FL\",\"lastName\":\"EXAMPLE\",\"fir" +
+                    "stName\":\"CHRISTINE\",\"currency\":\"USD\",\"email\":\"test@example.com\",\"zip\":\"33146\",\"r" +
+                    "ebillAmount\":\"37.00\",\"processedPayments\":\"2\",\"futurePayments\":\"0\",\"nextPaymentDa" +
+                    "te\":\"2012-12-16T11:41:17-08:00\",\"status\":\"COMPLETED\",\"accountAmount\":\"8.30\",\"rol" +
+                    "e\":\"VENDOR\",\"customerDisplayName\":\"Christine Example\",\"title\":\"Numerology Yoga: " +
+                    "Web-Only Discount Special!!\",\"recurring\":\"true\",\"physical\":\"false\"},{\"date\":\"201" +
+                    "2-11-19T10:23:45-08:00\",\"receipt\":\"PLWFEJZQ\",\"promo\":{\"@nil\":\"true\"},\"pmtType\":\"" +
+                    "VISA\",\"txnType\":\"SALE\",\"item\":\"46\",\"amount\":\"51.05\",\"site\":\"EODDIET\",\"affi\":\"GOD" +
+                    "FREE120\",\"country\":\"US\",\"state\":\"FL\",\"lastName\":\"EXAMPLE\",\"firstName\":\"CHRISTINE" +
+                    "\",\"currency\":\"USD\",\"email\":\"test@example.com\",\"zip\":\"11741\",\"rebillAmount\":{\"@ni" +
+                    "l\":\"true\"},\"processedPayments\":{\"@nil\":\"true\"},\"futurePayments\":{\"@nil\":\"true\"}," +
+                    "\"nextPaymentDate\":{\"@nil\":\"true\"},\"status\":{\"@nil\":\"true\"},\"accountAmount\":\"10.5" +
+                    "4\",\"role\":\"VENDOR\",\"customerDisplayName\":\"Christine Example\",\"title\":\"The Every " +
+                    "Other Day Diet 2.0: PDF Format (the SNAPP! System)\",\"recurring\":\"false\",\"physica" +
+                    "l\":\"false\"}]}\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 58
- testRunner.When("I request a list with a email of \'test@example.com\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line hidden
-            TechTalk.SpecFlow.Table table6 = new TechTalk.SpecFlow.Table(new string[] {
-                        "date",
-                        "receipt",
-                        "promo",
-                        "pmtType",
-                        "txnType",
-                        "item",
-                        "amount",
-                        "site",
-                        "affi",
-                        "country",
-                        "state",
-                        "lastName",
-                        "firstName",
-                        "currency",
-                        "email",
-                        "zip",
-                        "customerContactInfo",
-                        "refundsBlocked",
-                        "blockRefundReason",
-                        "rebillAmount",
-                        "processedPayments",
-                        "futurePayments",
-                        "nextPaymentDate",
-                        "status",
-                        "accountAmount",
-                        "role",
-                        "customerDisplayName",
-                        "title",
-                        "recurring",
-                        "physical"});
-            table6.AddRow(new string[] {
-                        "2012-11-25T15:52:38-08:00",
-                        "H74LFE5N",
-                        "",
-                        "PYPL",
-                        "SALE",
-                        "46",
-                        "47.00",
-                        "EODDIET",
-                        "2010SOLU",
-                        "US",
-                        "WA",
-                        "EXAMPLE",
-                        "PETER",
-                        "USD",
-                        "peter@example.com",
-                        "98155",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "10.62",
-                        "VENDOR",
-                        "Peter Example",
-                        "The Every Other Day Diet 2.0: PDF Format (the SNAPP! System)",
-                        "false",
-                        "false"});
+ testRunner.When("I Request Page 2", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 59
- testRunner.Then("I should receive the following", ((string)(null)), table6, "Then ");
-#line hidden
-            this.ScenarioCleanup();
-        }
-        
-        [Xunit.FactAttribute()]
-        [Xunit.TraitAttribute("FeatureTitle", "Get A List of Orders When Requesting with Valid Credentials")]
-        [Xunit.TraitAttribute("Description", "Get a list of orders by vendor")]
-        public virtual void GetAListOfOrdersByVendor()
-        {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Get a list of orders by vendor", new string[] {
-                        "mytag"});
-#line 64
-this.ScenarioSetup(scenarioInfo);
-#line 6
-this.FeatureBackground();
-#line 65
- testRunner.When("I request a list with a \'vendor\' of \'eoddiet\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line hidden
-            TechTalk.SpecFlow.Table table7 = new TechTalk.SpecFlow.Table(new string[] {
-                        "date",
-                        "receipt",
-                        "promo",
-                        "pmtType",
-                        "txnType",
-                        "item",
-                        "amount",
-                        "site",
-                        "affi",
-                        "country",
-                        "state",
-                        "lastName",
-                        "firstName",
-                        "currency",
-                        "email",
-                        "zip",
-                        "customerContactInfo",
-                        "refundsBlocked",
-                        "blockRefundReason",
-                        "rebillAmount",
-                        "processedPayments",
-                        "futurePayments",
-                        "nextPaymentDate",
-                        "status",
-                        "accountAmount",
-                        "role",
-                        "customerDisplayName",
-                        "title",
-                        "recurring",
-                        "physical"});
-            table7.AddRow(new string[] {
-                        "2012-11-19T10:23:45-08:00",
-                        "PLWFEJZQ",
-                        "",
-                        "VISA",
-                        "SALE",
-                        "46",
-                        "51.05",
-                        "EODDIET",
-                        "GODFREE120",
-                        "US",
-                        "FL",
-                        "EXAMPLE",
-                        "CHRISTINE",
-                        "USD",
-                        "test@example.com",
-                        "11741",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "10.54",
-                        "VENDOR",
-                        "Christine Example",
-                        "The Every Other Day Diet 2.0: PDF Format (the SNAPP! System)",
-                        "false",
-                        "false"});
-            table7.AddRow(new string[] {
-                        "2012-11-24T09:46:46-08:00",
-                        "GVP8EJPW",
-                        "",
-                        "VISA",
-                        "SALE",
-                        "51",
-                        "1.00",
-                        "EODDIET",
-                        "JKFJKF",
-                        "US",
-                        "CA",
-                        "EXAMPLE",
-                        "RICK",
-                        "USD",
-                        "rick@example.com",
-                        "95624",
-                        "",
-                        "",
-                        "",
-                        "46.00",
-                        "1",
-                        "1",
-                        "2012-12-15T09:46:54-08:00",
-                        "CANCELED",
-                        "0.00",
-                        "VENDOR",
-                        "Rick Example",
-                        "The EODD Trial Package With Radical Fat Loss Blueprint",
-                        "true",
-                        "false"});
-            table7.AddRow(new string[] {
-                        "2012-11-25T15:52:38-08:00",
-                        "H74LFE5N",
-                        "",
-                        "PYPL",
-                        "SALE",
-                        "46",
-                        "47.00",
-                        "EODDIET",
-                        "2010SOLU",
-                        "US",
-                        "WA",
-                        "EXAMPLE",
-                        "PETER",
-                        "USD",
-                        "peter@example.com",
-                        "98155",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "10.62",
-                        "VENDOR",
-                        "Peter Example",
-                        "The Every Other Day Diet 2.0: PDF Format (the SNAPP! System)",
-                        "false",
-                        "false"});
-#line 66
- testRunner.Then("I should receive the following", ((string)(null)), table7, "Then ");
-#line 71
- testRunner.When("I request a list with a \'vendor\' of \'numdiet\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line hidden
-            TechTalk.SpecFlow.Table table8 = new TechTalk.SpecFlow.Table(new string[] {
-                        "date",
-                        "receipt",
-                        "promo",
-                        "pmtType",
-                        "txnType",
-                        "item",
-                        "amount",
-                        "site",
-                        "affi",
-                        "country",
-                        "state",
-                        "lastName",
-                        "firstName",
-                        "currency",
-                        "email",
-                        "zip",
-                        "customerContactInfo",
-                        "refundsBlocked",
-                        "blockRefundReason",
-                        "rebillAmount",
-                        "processedPayments",
-                        "futurePayments",
-                        "nextPaymentDate",
-                        "status",
-                        "accountAmount",
-                        "role",
-                        "customerDisplayName",
-                        "title",
-                        "recurring",
-                        "physical"});
-            table8.AddRow(new string[] {
-                        "2012-10-16T11:41:17-07:00",
-                        "9L2LWNE3",
-                        "",
-                        "VISA",
-                        "SALE",
-                        "6",
-                        "37.00",
-                        "NUMDIET",
-                        "OUTRAGEOUS",
-                        "US",
-                        "FL",
-                        "EXAMPLE",
-                        "CHRISTINE",
-                        "USD",
-                        "test@example.com",
-                        "33146",
-                        "",
-                        "",
-                        "",
-                        "37.00",
-                        "2",
-                        "0",
-                        "2012-12-16T11:41:17-08:00",
-                        "COMPLETED",
-                        "8.30",
-                        "VENDOR",
-                        "Christine Example",
-                        "Numerology Yoga: Web-Only Discount Special!",
-                        "true",
-                        "false"});
-            table8.AddRow(new string[] {
-                        "2013-01-07T14:23:13-08:00",
-                        "7698KM8E",
-                        "",
-                        "PYPL",
-                        "RFND",
-                        "1",
-                        "-34.26",
-                        "NUMDIET",
-                        "TTYLERAFF",
-                        "GB",
-                        "",
-                        "",
-                        "",
-                        "GBP",
-                        "",
-                        "BS110HZ",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "-11.84",
-                        "AFFILIATE",
-                        "",
-                        "The Numerology Diet - the Art and Science of Spiritual Eating",
-                        "false",
-                        "false"});
-            table8.AddRow(new string[] {
-                        "2013-01-08T14:23:13-08:00",
-                        "7698KM8E",
-                        "",
-                        "PYPL",
-                        "SALE",
-                        "eodd",
-                        "34.26",
-                        "NUMDIET",
-                        "TTYLERAFF",
-                        "GB",
-                        "",
-                        "",
-                        "",
-                        "GBP",
-                        "",
-                        "BS110HZ",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "-11.84",
-                        "AFFILIATE",
-                        "",
-                        "The Numerology Diet - the Art and Science of Spiritual Eating",
-                        "false",
-                        "false"});
-#line 72
- testRunner.Then("I should receive the following", ((string)(null)), table8, "Then ");
-#line hidden
-            this.ScenarioCleanup();
-        }
-        
-        [Xunit.FactAttribute()]
-        [Xunit.TraitAttribute("FeatureTitle", "Get A List of Orders When Requesting with Valid Credentials")]
-        [Xunit.TraitAttribute("Description", "Get a list of orders by type")]
-        public virtual void GetAListOfOrdersByType()
-        {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Get a list of orders by type", new string[] {
-                        "mytag"});
-#line 79
-this.ScenarioSetup(scenarioInfo);
-#line 6
-this.FeatureBackground();
-#line 80
- testRunner.When("I request a list with a \'txnType\' of \'SALE\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line hidden
-            TechTalk.SpecFlow.Table table9 = new TechTalk.SpecFlow.Table(new string[] {
-                        "date",
-                        "receipt",
-                        "promo",
-                        "pmtType",
-                        "txnType",
-                        "item",
-                        "amount",
-                        "site",
-                        "affi",
-                        "country",
-                        "state",
-                        "lastName",
-                        "firstName",
-                        "currency",
-                        "email",
-                        "zip",
-                        "customerContactInfo",
-                        "refundsBlocked",
-                        "blockRefundReason",
-                        "rebillAmount",
-                        "processedPayments",
-                        "futurePayments",
-                        "nextPaymentDate",
-                        "status",
-                        "accountAmount",
-                        "role",
-                        "customerDisplayName",
-                        "title",
-                        "recurring",
-                        "physical"});
-            table9.AddRow(new string[] {
-                        "2012-09-26T18:02:34-07:00",
-                        "BZH3EJ28",
-                        "",
-                        "MSTR",
-                        "SALE",
-                        "400",
-                        "49.73",
-                        "FITCOOKING",
-                        "BENGEARY",
-                        "PH",
-                        "",
-                        "",
-                        "",
-                        "PHP",
-                        "",
-                        "1605",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "0.01",
-                        "AFFILIATE",
-                        "",
-                        "Metabolic Cooking Fat Loss Cookbooks Package",
-                        "false",
-                        "false"});
-            table9.AddRow(new string[] {
-                        "2012-10-16T11:41:17-07:00",
-                        "9L2LWNE3",
-                        "",
-                        "VISA",
-                        "SALE",
-                        "6",
-                        "37.00",
-                        "NUMDIET",
-                        "OUTRAGEOUS",
-                        "US",
-                        "FL",
-                        "EXAMPLE",
-                        "CHRISTINE",
-                        "USD",
-                        "test@example.com",
-                        "33146",
-                        "",
-                        "",
-                        "",
-                        "37.00",
-                        "2",
-                        "0",
-                        "2012-12-16T11:41:17-08:00",
-                        "COMPLETED",
-                        "8.30",
-                        "VENDOR",
-                        "Christine Example",
-                        "Numerology Yoga: Web-Only Discount Special!",
-                        "true",
-                        "false"});
-            table9.AddRow(new string[] {
-                        "2012-11-19T10:23:45-08:00",
-                        "PLWFEJZQ",
-                        "",
-                        "VISA",
-                        "SALE",
-                        "46",
-                        "51.05",
-                        "EODDIET",
-                        "GODFREE120",
-                        "US",
-                        "FL",
-                        "EXAMPLE",
-                        "CHRISTINE",
-                        "USD",
-                        "test@example.com",
-                        "11741",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "10.54",
-                        "VENDOR",
-                        "Christine Example",
-                        "The Every Other Day Diet 2.0: PDF Format (the SNAPP! System)",
-                        "false",
-                        "false"});
-            table9.AddRow(new string[] {
-                        "2012-11-24T09:46:46-08:00",
-                        "GVP8EJPW",
-                        "",
-                        "VISA",
-                        "SALE",
-                        "51",
-                        "1.00",
-                        "EODDIET",
-                        "JKFJKF",
-                        "US",
-                        "CA",
-                        "EXAMPLE",
-                        "RICK",
-                        "USD",
-                        "rick@example.com",
-                        "95624",
-                        "",
-                        "",
-                        "",
-                        "46.00",
-                        "1",
-                        "1",
-                        "2012-12-15T09:46:54-08:00",
-                        "CANCELED",
-                        "0.00",
-                        "VENDOR",
-                        "Rick Example",
-                        "The EODD Trial Package With Radical Fat Loss Blueprint",
-                        "true",
-                        "false"});
-            table9.AddRow(new string[] {
-                        "2012-11-25T15:52:38-08:00",
-                        "H74LFE5N",
-                        "",
-                        "PYPL",
-                        "SALE",
-                        "46",
-                        "47.00",
-                        "EODDIET",
-                        "2010SOLU",
-                        "US",
-                        "WA",
-                        "EXAMPLE",
-                        "PETER",
-                        "USD",
-                        "peter@example.com",
-                        "98155",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "10.62",
-                        "VENDOR",
-                        "Peter Example",
-                        "The Every Other Day Diet 2.0: PDF Format (the SNAPP! System)",
-                        "false",
-                        "false"});
-            table9.AddRow(new string[] {
-                        "2013-01-08T14:23:13-08:00",
-                        "7698KM8E",
-                        "",
-                        "PYPL",
-                        "SALE",
-                        "eodd",
-                        "34.26",
-                        "NUMDIET",
-                        "TTYLERAFF",
-                        "GB",
-                        "",
-                        "",
-                        "",
-                        "GBP",
-                        "",
-                        "BS110HZ",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "-11.84",
-                        "AFFILIATE",
-                        "",
-                        "The Numerology Diet - the Art and Science of Spiritual Eating",
-                        "false",
-                        "false"});
-#line 81
- testRunner.Then("I should receive the following", ((string)(null)), table9, "Then ");
-#line 89
- testRunner.When("I request a list with a \'txnType\' of \'RFND\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line hidden
-            TechTalk.SpecFlow.Table table10 = new TechTalk.SpecFlow.Table(new string[] {
-                        "date",
-                        "receipt",
-                        "promo",
-                        "pmtType",
-                        "txnType",
-                        "item",
-                        "amount",
-                        "site",
-                        "affi",
-                        "country",
-                        "state",
-                        "lastName",
-                        "firstName",
-                        "currency",
-                        "email",
-                        "zip",
-                        "customerContactInfo",
-                        "refundsBlocked",
-                        "blockRefundReason",
-                        "rebillAmount",
-                        "processedPayments",
-                        "futurePayments",
-                        "nextPaymentDate",
-                        "status",
-                        "accountAmount",
-                        "role",
-                        "customerDisplayName",
-                        "title",
-                        "recurring",
-                        "physical"});
-            table10.AddRow(new string[] {
-                        "2013-01-07T14:23:13-08:00",
-                        "7698KM8E",
-                        "",
-                        "PYPL",
-                        "RFND",
-                        "1",
-                        "-34.26",
-                        "NUMDIET",
-                        "TTYLERAFF",
-                        "GB",
-                        "",
-                        "",
-                        "",
-                        "GBP",
-                        "",
-                        "BS110HZ",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "-11.84",
-                        "AFFILIATE",
-                        "",
-                        "The Numerology Diet - the Art and Science of Spiritual Eating",
-                        "false",
-                        "false"});
-#line 90
- testRunner.Then("I should receive the following", ((string)(null)), table10, "Then ");
-#line hidden
-            this.ScenarioCleanup();
-        }
-        
-        [Xunit.FactAttribute()]
-        [Xunit.TraitAttribute("FeatureTitle", "Get A List of Orders When Requesting with Valid Credentials")]
-        [Xunit.TraitAttribute("Description", "Get a list of orders by type and role")]
-        public virtual void GetAListOfOrdersByTypeAndRole()
-        {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Get a list of orders by type and role", new string[] {
-                        "mytag"});
-#line 95
-this.ScenarioSetup(scenarioInfo);
-#line 6
-this.FeatureBackground();
-#line 96
- testRunner.When("I request a list with a \'txnType\' of \'SALE\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 97
- testRunner.And("\'role\' of \'Affiliate\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-            TechTalk.SpecFlow.Table table11 = new TechTalk.SpecFlow.Table(new string[] {
-                        "date",
-                        "receipt",
-                        "promo",
-                        "pmtType",
-                        "txnType",
-                        "item",
-                        "amount",
-                        "site",
-                        "affi",
-                        "country",
-                        "state",
-                        "lastName",
-                        "firstName",
-                        "currency",
-                        "email",
-                        "zip",
-                        "customerContactInfo",
-                        "refundsBlocked",
-                        "blockRefundReason",
-                        "rebillAmount",
-                        "processedPayments",
-                        "futurePayments",
-                        "nextPaymentDate",
-                        "status",
-                        "accountAmount",
-                        "role",
-                        "customerDisplayName",
-                        "title",
-                        "recurring",
-                        "physical"});
-            table11.AddRow(new string[] {
-                        "2012-09-26T18:02:34-07:00",
-                        "BZH3EJ28",
-                        "",
-                        "MSTR",
-                        "SALE",
-                        "400",
-                        "49.73",
-                        "FITCOOKING",
-                        "BENGEARY",
-                        "PH",
-                        "",
-                        "",
-                        "",
-                        "PHP",
-                        "",
-                        "1605",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "0.01",
-                        "AFFILIATE",
-                        "",
-                        "Metabolic Cooking Fat Loss Cookbooks Package",
-                        "false",
-                        "false"});
-            table11.AddRow(new string[] {
-                        "2013-01-08T14:23:13-08:00",
-                        "7698KM8E",
-                        "",
-                        "PYPL",
-                        "SALE",
-                        "eodd",
-                        "34.26",
-                        "NUMDIET",
-                        "TTYLERAFF",
-                        "GB",
-                        "",
-                        "",
-                        "",
-                        "GBP",
-                        "",
-                        "BS110HZ",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "-11.84",
-                        "AFFILIATE",
-                        "",
-                        "The Numerology Diet - the Art and Science of Spiritual Eating",
-                        "false",
-                        "false"});
-#line 98
- testRunner.Then("I should receive the following", ((string)(null)), table11, "Then ");
+ testRunner.Then("I should receive the following order info \'{\"orderData\": [{\"date\":\"2012-11-24T09:" +
+                    "46:46-08:00\",\"receipt\":\"GVP8EJPW\",\"promo\":{\"@nil\":\"true\"},\"pmtType\":\"VISA\",\"txnT" +
+                    "ype\":\"SALE\",\"item\":\"51\",\"amount\":\"1.00\",\"site\":\"EODDIET\",\"affi\":\"JKFJKF\",\"countr" +
+                    "y\":\"US\",\"state\":\"CA\",\"lastName\":\"EXAMPLE\",\"firstName\":\"RICK\",\"currency\":\"USD\",\"e" +
+                    "mail\":\"rick@example.com\",\"zip\":\"95624\",\"rebillAmount\":\"46.00\",\"processedPayments" +
+                    "\":\"1\",\"futurePayments\":\"1\",\"nextPaymentDate\":\"2012-12-15T09:46:54-08:00\",\"status" +
+                    "\":\"CANCELED\",\"accountAmount\":\"0.00\",\"role\":\"VENDOR\",\"customerDisplayName\":\"Rick " +
+                    "Example\",\"title\":\"The EODD Trial Package With Radical Fat Loss Blueprint,\"recurr" +
+                    "ing\":\"true\",\"physical\":\"false\"},{\"date\":\"2012-11-25T15:52:38-08:00\",\"receipt\":\"H" +
+                    "74LFE5N\",\"promo\":{\"@nil\":\"true\"},\"pmtType\":\"PYPL\",\"txnType\":\"SALE\",\"item\":\"46\",\"" +
+                    "amount\":\"47.00\",\"site\":\"EODDIET\",\"affi\":\"2010SOLU\",\"country\":\"US\",\"state\":\"WA\",\"" +
+                    "lastName\":\"EXAMPLE\",\"firstName\":\"PETER\",\"currency\":\"USD\",\"email\":\"peter@example." +
+                    "com\",\"zip\":\"98155\",\"rebillAmount\":{\"@nil\":\"true\"},\"processedPayments\":{\"@nil\":\"t" +
+                    "rue\"},\"futurePayments\":{\"@nil\":\"true\"},\"nextPaymentDate\":{\"@nil\":\"true\"},\"status" +
+                    "\":{\"@nil\":\"true\"},\"accountAmount\":\"10.62\",\"role\":\"VENDOR\",\"customerDisplayName\":" +
+                    "\"Peter Example\",\"title\":\"The Every Other Day Diet 2.0: PDF Format (the SNAPP! Sy" +
+                    "stem)\",\"recurring\":\"false\",\"physical\":\"false\"},{\"date\":\"2013-01-07T14:23:13-08:0" +
+                    "0\",\"receipt\":\"7698KM8E\",\"promo\":{\"@nil\":\"true\"},\"pmtType\":\"PYPL\",\"txnType\":\"RFND" +
+                    "\",\"item\":\"1\",\"amount\":\"-34.26\",\"site\":\"NUMDIET\",\"affi\":\"TTYLERAFF\",\"country\":\"GB" +
+                    "\",\"state\":{\"@nil\":\"true\"},\"lastName\":{\"@nil\":\"true\"},\"firstName\":{\"@nil\":\"true\"}" +
+                    ",\"currency\":\"GBP\",\"email\":{\"@nil\":\"true\"},\"zip\":\"BS110HZ\",\"rebillAmount\":{\"@nil\"" +
+                    ":\"true\"},\"processedPayments\":{\"@nil\":\"true\"},\"futurePayments\":{\"@nil\":\"true\"},\"n" +
+                    "extPaymentDate\":{\"@nil\":\"true\"},\"status\":{\"@nil\":\"true\"},\"accountAmount\":\"-11.84" +
+                    "\",\"role\":\"AFFILIATE\",\"customerDisplayName\":{\"@nil\":\"true\"},\"title\":\"The Numerolo" +
+                    "gy Diet - the Art and Science of Spiritual Eating\",\"recurring\":\"false\",\"physical" +
+                    "\":\"false\"},{\"date\":\"2013-01-08T14:23:13-08:00\",\"receipt\":\"J2Q2EKTH\",\"promo\":{\"@n" +
+                    "il\":\"true\"},\"pmtType\":\"PYPL\",\"txnType\":\"SALE\",\"item\":\"eodd\",\"amount\":\"34.26\",\"si" +
+                    "te\":\"NUMDIET\",\"affi\":\"TTYLERAFF\",\"country\":\"GB\",\"state\":{\"@nil\":\"true\"},\"lastNam" +
+                    "e\":{\"@nil\":\"true\"},\"firstName\":{\"@nil\":\"true\"},\"currency\":\"GBP\",\"email\":{\"@nil\":" +
+                    "\"true\"},\"zip\":\"BS110HZ\",\"rebillAmount\":{\"@nil\":\"true\"},\"processedPayments\":{\"@ni" +
+                    "l\":\"true\"},\"futurePayments\":{\"@nil\":\"true\"},\"nextPaymentDate\":{\"@nil\":\"true\"},\"s" +
+                    "tatus\":{\"@nil\":\"true\"},\"accountAmount\":\"11.84\",\"role\":\"AFFILIATE\",\"customerDispl" +
+                    "ayName\":{\"@nil\":\"true\"},\"title\":\"The Numerology Diet - the Art and Science of Sp" +
+                    "iritual Eating\",\"recurring\":\"false\",\"physical\":\"false\"}]}\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

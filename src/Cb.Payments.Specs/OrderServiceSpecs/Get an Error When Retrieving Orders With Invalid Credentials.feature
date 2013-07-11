@@ -8,10 +8,10 @@ Scenario: No Credentials provided
 	Given I try to access the ClickBank Order API without credentials
 	When I call the list portion of the orders service
 	Then an ArgumentException should occur
-	And I should receive an Exception message 'Access Denied'
+	And I should receive an Exception message 'The value cannot be null or empty.'
 
 Scenario: Invalid credentials provided
 	Given I try to access the ClickBank Order API with invalid credentials
 	When I call the list portion of the orders service
-	Then an ArgumentException should occur
+	Then an UnauthorizedAccessException should occur
 	And I should receive an Exception message 'Access Denied'

@@ -89,7 +89,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 10
  testRunner.Then("an ArgumentException should occur", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 11
- testRunner.And("I should receive an Exception message \'Access Denied\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("I should receive an Exception message \'The value cannot be null or empty.\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -107,7 +107,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 15
  testRunner.When("I call the list portion of the orders service", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 16
- testRunner.Then("an ArgumentException should occur", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("an UnauthorizedAccessException should occur", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 17
  testRunner.And("I should receive an Exception message \'Access Denied\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
